@@ -1,8 +1,16 @@
 body {
+    /* Move the body down and center it */
     margin: 300px auto;
-    display: flex;
+    /* Don't expand the content beyond this size */
     max-width: 1000px;
+    /* Set the content in a row with as much space between it as possible */
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* Set the colors */
+    background-color: black;
+    color: white;
+    /* Set the font */
+    font-family: 'Manrope', sans-serif;
 }
 
