@@ -1,0 +1,8 @@
+body {
+    margin: 300px auto;
+    display: flex;
+    max-width: 1000px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
