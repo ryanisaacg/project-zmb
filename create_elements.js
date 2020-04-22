@@ -15,57 +15,13 @@ const posts = [
                 user: users[0],
                 content: "These tweets are now generated!",
             },
-            {
-                user: users[0],
-                content: "Yup, just some JSON input and then it spits out all these HTML elements!",
-            },
-            {
-                user: users[0],
-                content: "Yup, just some JSON input and then it spits out all these HTML elements!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
-            {
-                user: users[0],
-                content: "I'm a padding post to add length!",
-            },
         ]
     }
 ]
+
+for(var i = 0; i < 50; i++) {
+    posts[0].replies.push(posts[0].replies[0])
+}
 
 const article = document.getElementsByTagName("article")[0]
 console.log(article)

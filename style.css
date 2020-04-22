@@ -21,8 +21,15 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
+
+article {
+    min-width: 800px;
+    max-height: 1000px;
+    overflow: auto;
+}
+
 
 .post {
     display: flex;
