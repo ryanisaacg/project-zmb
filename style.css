@@ -24,12 +24,15 @@ main {
     align-items: top;
 }
 
-article {
-    min-width: 800px;
-    max-height: 1000px;
-    overflow: auto;
+nav {
+    margin-top: 256px;
 }
 
+article {
+    width: 768px;
+    max-height: 1024px;
+    overflow: auto;
+}
 
 .post {
     display: flex;
