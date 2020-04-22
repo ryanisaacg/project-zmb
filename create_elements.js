@@ -16,7 +16,17 @@ const posts = [
                 content: "These tweets are now generated!",
             },
         ]
-    }
+    },
+    {
+        user: users[0],
+        content: "Wow, a second tweet?",
+        replies: [
+            {
+                user: users[0],
+                content: "Yeah, at this point we can just start writing content. The site can kinda support the outline of the project?",
+            },
+        ]
+    },
 ]
 
 for(var i = 0; i < 50; i++) {
@@ -27,6 +37,20 @@ const article = document.getElementsByTagName("article")[0]
 console.log(article)
 let active_post = 0
 repaint()
+
+document.getElementById("prev").onclick = function() {
+    if(active_post > 0) {
+        active_post -= 1;
+        repaint();
+    }
+}
+
+document.getElementById("next").onclick = function() {
+    if(active_post + 1 < posts.length) {
+        active_post += 1;
+        repaint();
+    }
+}
 
 function repaint() {
     while(article.children.length > 0) {

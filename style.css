@@ -25,12 +25,24 @@ main {
 }
 
 nav {
-    margin-top: 256px;
+    outline: white solid thin;
+    height: 768px;
+    line-height: 768px; /* evil hack: vertically centers arrow sigils */
+    padding: 4px;
+}
+
+nav:hover {
+    color: red;
+    outline: red solid;
+    cursor: pointer;
+}
+
+nav:active {
 }
 
 article {
     width: 768px;
-    max-height: 1024px;
+    max-height: 768px;
     overflow: auto;
 }
 
