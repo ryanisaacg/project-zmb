@@ -26,8 +26,8 @@ main {
 
 nav {
     outline: white solid thin;
-    height: 768px;
-    line-height: 768px; /* evil hack: vertically centers arrow sigils */
+    height: 512px;
+    line-height: 512px; /* evil hack: vertically centers arrow sigils */
     padding: 4px;
 }
 
