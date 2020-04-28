@@ -6,7 +6,7 @@ async function fetchJSON(url) {
 
 var users
 var posts
-fetchJSON('content.json').then((json) => {
+fetchJSON('week1-content.json').then((json) => {
     const { users, posts } = json
 
     for(var i = 0; i < 50; i++) {
