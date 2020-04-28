@@ -1,3 +1,4 @@
+const storage = window.localStorage;
 const article = document.getElementsByTagName("article")[0]
 const weekTitle = document.getElementById("week")
 
@@ -17,7 +18,16 @@ const slides = [
     }
 ]
 
-startSlide(0)
+let slide = parseInt(storage.getItem('slide'), 10)
+let week = parseInt(storage.getItem('week'), 10)
+if(Number.isNaN(week)) {
+    if(Number.isNaN(slide) || slide >= slides.length) {
+        slide = 0;
+    }
+    startSlide(slide)
+} else {
+    startWeek(slide, week);
+}
 
 function startSlide(idx) {
     const { title, text, week } = slides[idx]
@@ -30,8 +40,11 @@ function startSlide(idx) {
     document.getElementById("next").onclick = function() {
         article.innerHTML = ''
         if(week) {
+            storage.setItem('week', week)
             startWeek(idx, week)
         } else {
+            storage.setItem('week', null)
+            storage.setItem('slide', idx + 1)
             startSlide(idx + 1)
         }
     }
@@ -41,13 +54,16 @@ function startSlide(idx) {
 async function startWeek(slide, week) {
     const { users, posts } = await fetchJSON("week" + week + "-content.json")
     weekTitle.innerHTML = "Week " + week
-    let active_post = 0
+    let active_post = parseInt(storage.getItem('post'), 10) || 0
+    let arrows = []
     repaint()
 
     document.getElementById("prev").onclick = function() {
         if(active_post > 0) {
             active_post -= 1;
             repaint();
+        } else {
+            startSlide(slide - 1);
         }
     }
 
@@ -61,6 +77,7 @@ async function startWeek(slide, week) {
     }
 
     function repaint() {
+        storage.setItem('post', active_post)
         if(active_post == 0) {
             document.getElementById("prev").classList.add("hidden")
         } else {
