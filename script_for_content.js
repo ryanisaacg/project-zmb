@@ -88,7 +88,7 @@ fs.readFile('content.txt', 'utf8', (err, data) => {
   })
   outputText = outputText.replace(/,\n$/, '\n')
 
-  outputText += `\t]\n}`
+  outputText += `\t]\n}\n`
 
   fs.writeFile('content.json', outputText, (err) => {
     // In case of a error throw err.
