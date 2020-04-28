@@ -78,7 +78,12 @@ fetchJSON('content.json').then((json) => {
         main.appendChild(userinfo)
         const text = document.createElement("div")
         text.className = "post-text"
-        text.innerHTML = post.content
+        for(let line of post.content.split("\n")) {
+            const paragraph = document.createElement("span");
+            paragraph.innerHTML = line
+            text.appendChild(paragraph);
+            text.appendChild(document.createElement("br"));
+        }
         main.appendChild(text)
         section.appendChild(main)
         return section;
