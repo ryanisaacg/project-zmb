@@ -7,24 +7,24 @@ ryguy9999
 beach-ball.png
 -------------------------------------
 @username
-9001/4
+9001/4 dev
 Here's tweet text!
-@username: 3/78
+@username: 3/78 dev
 These tweets are now generated!
 
 @username
-2/999
+2/999 dev
 Wow, a second tweet?
-@username: 94/1
+@username: 94/1 no-tag
 Yeah, at this point we can just start writing content. The site can kinda support the outline of the project?
 
 @ryguy9999
-0/0
+0/0 tag1 tag2 tag3
 Posts should now be able to handle new lines like this:|
 |I don't know about the front though.
-@username: 5/124
+@username: 5/124 tags-cant-have-spaces but-replies-can-have-multiple-too
 But what about replies?
-@ryguy9999: 97/3
+@ryguy9999: 97/3 no-tag
 Yes, even|
 |these as well.|
 |Just make sure to start them on a new line after the up/down vote.

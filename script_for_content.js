@@ -34,8 +34,19 @@ fs.readFile('content.txt', 'utf8', (err, data) => {
 
       votes = initialPost.split('\n')[0]
       outputText += `\t\t\t"upvotes": ${votes.split('/')[0]},
-      \t\t"downvotes": ${votes.split("/")[1]},\n`
+      \t\t"downvotes": ${votes.split("/")[1].split(' ')[0]},
+      \t\t"tags": [\n`
+      initialPost = initialPost.substring(initialPost.indexOf(' ')+1)
+      tags = initialPost.substring(0, initialPost.indexOf('\n')).split(' ')
+      outputText += `\t\t\t\t`
+      tags.forEach((tag) => {
+          outputText += `"${tag}", `
+      });
+      outputText = outputText.replace(/, $/, '\n')
+
       initialPost = initialPost.substring(initialPost.indexOf('\n')+1)
+
+      outputText += `\t\t\t],\n`
 
       outputText += `\t\t\t"content": "${initialPost.replace(/\n$/, '').replace(/\n/g, '\\n')}",
       \t\t"replies": [\n`
@@ -54,9 +65,21 @@ fs.readFile('content.txt', 'utf8', (err, data) => {
           outputText += `\t\t\t\t\t"upvotes": ${reply.substring(0, i)},\n`
           reply = reply.substring(i + '/'.length)
 
-          i = reply.indexOf('\n')
+          i = reply.indexOf(' ')
           outputText += `\t\t\t\t\t"downvotes": ${reply.substring(0, i)},
-          \t\t\t"content": "${reply.substring(i + '\n'.length, reply.length).replace(/\n$/, '').replace(/\n/g, '\\n')}"\n\t\t\t\t},\n`
+          \t\t\t"tags": [\n`
+          reply = reply.substring(i + ' '.length)
+
+          i = reply.indexOf('\n')
+          tags = reply.substring(0, i).split(' ')
+          outputText += `\t\t\t\t\t\t`
+          tags.forEach((tag) => {
+              outputText += `"${tag}", `
+          });
+          outputText = outputText.replace(/, $/, '\n')
+          outputText += `\t\t\t\t\t],\n`
+
+          outputText += `\t\t\t\t\t"content": "${reply.substring(i + '\n'.length, reply.length).replace(/\n$/, '').replace(/\n/g, '\\n')}"\n\t\t\t\t},\n`
       });
       outputText = outputText.replace(/,\n$/, '\n')
 
