@@ -1,0 +1,85 @@
+{
+	"users": [
+		{
+			"name": "Display Name",
+			"handle": "username",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Ryan C",
+			"handle": "ryguy9999",
+			"avi": "beach-ball.png"
+		}
+	],
+	"posts": [
+		{
+			"user": "username",
+			"upvotes": 9001,
+			"downvotes": 4,
+			"tags": [
+				"dev"
+			],
+			"content": "Here's tweet text!",
+			"replies": [
+				{
+					"user": "username",
+					"upvotes": 3,
+					"downvotes": 78,
+					"tags": [
+						"dev"
+					],
+					"content": "These tweets are now generated!"
+				}
+			]
+		},
+		{
+			"user": "username",
+			"upvotes": 2,
+			"downvotes": 999,
+			"tags": [
+				"dev"
+			],
+			"content": "Wow, a second tweet?",
+			"replies": [
+				{
+					"user": "username",
+					"upvotes": 94,
+					"downvotes": 1,
+					"tags": [
+						"no-tag"
+					],
+					"content": "Yeah, at this point we can just start writing content. The site can kinda support the outline of the project?"
+				}
+			]
+		},
+		{
+			"user": "ryguy9999",
+			"upvotes": 0,
+			"downvotes": 0,
+			"tags": [
+				"tag1", "tag2", "tag3"
+			],
+			"content": "Posts should now be able to handle new lines like this:|\n|I don't know about the front though.",
+			"replies": [
+				{
+					"user": "username",
+					"upvotes": 5,
+					"downvotes": 124,
+					"tags": [
+						"tags-cant-have-spaces", "but-replies-can-have-multiple-too"
+					],
+					"content": "But what about replies?"
+				},
+				{
+					"user": "ryguy9999",
+					"upvotes": 97,
+					"downvotes": 3,
+					"tags": [
+						"no-tag"
+					],
+					"content": "Yes, even|\n|these as well.|\n|Just make sure to start them on a new line after the up/down vote."
+				}
+			]
+		}
+	]
+}
