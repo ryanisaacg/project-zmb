@@ -88,3 +88,15 @@ article {
 .hidden {
     visibility: hidden;
 }
+
+.vote:hover {
+    cursor: pointer;
+}
+
+.vote.up.active {
+    color: orange;
+}
+
+.vote.down.active {
+    color: #0FF;
+}
