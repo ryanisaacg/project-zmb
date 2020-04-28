@@ -1,20 +1,46 @@
-async function fetchJSON(url) {
-    const response = await fetch(url, {mode: 'no-cors'})
-    const json = await response.json()
-    return json
-}
+const article = document.getElementsByTagName("article")[0]
+const weekTitle = document.getElementById("week")
 
-var users
-var posts
-fetchJSON('week1-content.json').then((json) => {
-    const { users, posts } = json
+const slides = [
+    {
+        title: "Project ZMB",
+        text: "Welcome to our entry in the Digital Decamaron! Your window into this fictional world is a basic social media site, like a proto-Twitter.",
+    },
+    {
+        title: "How to Play",
+        text: "Use the arrows to navigate the posts. (Please don't use your browser arrows!) Enjoy!",
+        week: 1,
+    },
+    {
+        title: "That's all, folks!",
+        text: "Thanks for playing!",
+    }
+]
 
-    for(var i = 0; i < 50; i++) {
-        posts[0].replies.push(posts[0].replies[0])
+startSlide(0)
+
+function startSlide(idx) {
+    const { title, text, week } = slides[idx]
+    weekTitle.innerHTML = title
+    article.innerHTML = text
+    document.getElementById("prev").classList.add("hidden")
+    if(idx + 1 == slides.length) {
+        document.getElementById("next").classList.add("hidden")
+    }
+    document.getElementById("next").onclick = function() {
+        article.innerHTML = ''
+        if(week) {
+            startWeek(idx, week)
+        } else {
+            startSlide(idx + 1)
+        }
     }
 
-    const article = document.getElementsByTagName("article")[0]
-    console.log(article)
+}
+
+async function startWeek(slide, week) {
+    const { users, posts } = await fetchJSON("week" + week + "-content.json")
+    weekTitle.innerHTML = "Week " + week
     let active_post = 0
     repaint()
 
@@ -29,10 +55,17 @@ fetchJSON('week1-content.json').then((json) => {
         if(active_post + 1 < posts.length) {
             active_post += 1;
             repaint();
+        } else {
+            startSlide(slide + 1)
         }
     }
 
     function repaint() {
+        if(active_post == 0) {
+            document.getElementById("prev").classList.add("hidden")
+        } else {
+            document.getElementById("prev").classList.remove("hidden")
+        }
         while(article.children.length > 0) {
             article.children[0].remove();
         }
@@ -88,4 +121,11 @@ fetchJSON('week1-content.json').then((json) => {
         section.appendChild(main)
         return section;
     }
-});
+}
+
+async function fetchJSON(url) {
+    const response = await fetch(url, {mode: 'no-cors'})
+    const json = await response.json()
+    return json
+}
+

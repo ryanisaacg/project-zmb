@@ -80,3 +80,7 @@ article {
 .replies {
     margin-left: 64px;
 }
+
+.hidden {
+    visibility: hidden;
+}
