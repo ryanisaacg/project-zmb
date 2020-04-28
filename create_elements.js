@@ -150,3 +150,8 @@ async function fetchJSON(url) {
     return json
 }
 
+function devReset() {
+    storage.setItem('slide', null)
+    storage.setItem('week', null)
+    storage.setItem('post', null)
+}
