@@ -106,8 +106,12 @@ async function startWeek(slide, week) {
         userinfo.appendChild(display)
         const handle = document.createElement("span")
         handle.className = "username"
-        handle.innerHTML = '@' + user.handle
+        handle.innerHTML = '@' + user.handle + ' '
         userinfo.appendChild(handle)
+        const score = document.createElement("span")
+        score.className = "score"
+        score.innerHTML = (post.upvotes - post.downvotes) + " points"
+        userinfo.appendChild(score)
         main.appendChild(userinfo)
         const text = document.createElement("div")
         text.className = "post-text"

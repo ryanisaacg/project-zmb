@@ -77,6 +77,10 @@ article {
     color: #DDD;
 }
 
+.score {
+    color: #EEE;
+}
+
 .replies {
     margin-left: 64px;
 }
