@@ -1,0 +1,38 @@
+{
+	"users": [
+		{
+			"name": "Display Name",
+			"handle": "username",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Ryan C",
+			"handle": "ryguy9999",
+			"avi": "beach-ball.png"
+		}
+	],
+	"posts": [
+		{
+			"UUID": 8,
+			"user": "ryguy9999",
+			"upvotes": 1,
+			"downvotes": 4,
+			"tags": [
+				"dev"
+			],
+			"content": "HE-LLLLLOOO WEEK 2!",
+			"replies": [
+				{
+					"UUID": 9,
+					"user": "username",
+					"upvotes": 0,
+					"downvotes": 46,
+					"tags": [
+						"dev"
+					],
+					"content": "So it seems posts need a reply?"
+				}
+			]
+		}
+	]
+}

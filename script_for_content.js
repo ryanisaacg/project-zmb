@@ -1,5 +1,7 @@
 const fs = require('fs')
 
+uuid = 1
+
 function handleFile(file) {
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
@@ -13,7 +15,7 @@ function handleFile(file) {
       users = data[0]
       posts = data[1]
       users = users.split('\n\n')
-      outputText += "\t\"users\": [\n"
+      outputText += `\t\"users\": [\n`
       users.forEach((user) => {
           user = user.split('\n')
           outputText += `\t\t{\n\t\t\t"name": "${user[0]}",\n`+
@@ -30,7 +32,7 @@ function handleFile(file) {
           replies = post.substring(i)
 
           i = initialPost.indexOf('\n')
-          outputText += `\t\t{\n\t\t\t"user": "${initialPost.substring(1, i)}",\n`
+          outputText += `\t\t{\n\t\t\t"UUID": ${uuid++},\n\t\t\t"user": "${initialPost.substring(1, i)}",\n`
           initialPost = initialPost.substring(i+1)
 
           votes = initialPost.split('\n')[0]
@@ -59,7 +61,7 @@ function handleFile(file) {
           replies.forEach((reply) => {
               outputText += `\t\t\t\t{\n`
               i = reply.indexOf(': ')
-              outputText += `\t\t\t\t\t"user": "${reply.substring(0, i)}",\n`
+              outputText += `\t\t\t\t\t"UUID": ${uuid++},\n\t\t\t\t\t"user": "${reply.substring(0, i)}",\n`
               reply = reply.substring(i + ': '.length)
 
               i = reply.indexOf('/')
