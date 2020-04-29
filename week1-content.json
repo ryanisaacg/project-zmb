@@ -29,6 +29,36 @@
 			"name": "raj",
 			"handle": "captain0bvi0us",
 			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Worldwide News Network (Official)",
+			"handle": "WWNN",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Gayle Lorenzo, PhD",
+			"handle": "glorenzo",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Carol",
+			"handle": "cl928238",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "jisung's baby girl",
+			"handle": "lgbtjisungies",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Greengrass Pharmacy",
+			"handle": "GreenGrass",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Comrade Jameson",
+			"handle": "anarkeereinz",
+			"avi": "beach-ball.png"
 		}
 	],
 	"posts": [
@@ -135,6 +165,80 @@
 						"none"
 					],
 					"content": "nah man don't listen to mariano shoot ya shot brother"
+				}
+			]
+		},
+		{
+			"UUID": 11,
+			"user": "WWNN",
+			"upvotes": 3000,
+			"downvotes": 12,
+			"tags": [
+				"news"
+			],
+			"content": "Scientists discover new strain of the flu that seems unaffeced by the flu vaccine- but they say not to worry. Read more on our website!",
+			"replies": [
+				{
+					"UUID": 12,
+					"user": "glorenzo",
+					"upvotes": 30,
+					"downvotes": 70,
+					"tags": [
+						"expert"
+					],
+					"content": "Not worrying is right! Labs like mine are already working on a new vaccine. For now, just remember to wash your hands and stay inside if you don't feel well."
+				},
+				{
+					"UUID": 13,
+					"user": "cl928238",
+					"upvotes": 30,
+					"downvotes": 26,
+					"tags": [
+						"conspiracy"
+					],
+					"content": "not worrying!!! That's what the govt WANTS you to think!!!! There are chips in those vaccines, wake up!"
+				},
+				{
+					"UUID": 14,
+					"user": "captain0bvi0us",
+					"upvotes": 200,
+					"downvotes": 16,
+					"tags": [
+						"roast"
+					],
+					"content": "lady wtf LMAO"
+				},
+				{
+					"UUID": 15,
+					"user": "lgbtjisungies",
+					"upvotes": 300,
+					"downvotes": 20,
+					"tags": [
+						"kpop"
+					],
+					"content": "maybe if you stanned VTS carol"
+				}
+			]
+		},
+		{
+			"UUID": 16,
+			"user": "GreenGrass",
+			"upvotes": 260,
+			"downvotes": 13,
+			"tags": [
+				"ad"
+			],
+			"content": "Our pharmacies are open 24/7 for all your needs. Make sure to get your yearly flu vaccines at any of our locations!",
+			"replies": [
+				{
+					"UUID": 17,
+					"user": "anarkeereinz",
+					"upvotes": 600,
+					"downvotes": 200,
+					"tags": [
+						"leftie", "reply-guy"
+					],
+					"content": "24/7 shifts are unethical"
 				}
 			]
 		}
