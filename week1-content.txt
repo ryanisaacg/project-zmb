@@ -1,30 +1,49 @@
-Display Name
-username
+Kira Waller
+kwallzzzzzzzz
 beach-ball.png
 
-Ryan C
-ryguy9999
+Ddi-ddi-ddi
+diyvachandler
+beach-ball.png
+
+Mr. Pastman
+pastman114
+beach-ball.png
+
+julie 💖s oscar
+juliejuliejulie00
+beach-ball.png
+
+its me! mario!
+marinemariano
+beach-ball.png
+
+raj
+captain0bvi0us
 beach-ball.png
 -------------------------------------
-@username
-9001/4 dev
-Here's tweet text!
-@username: 3/78 dev
-These tweets are now generated!
+@kwallzzzzzzzz
+15/0 sick
+hey guys! I hope everyones doin ok I got a 101 fever and had to call outta work :(
+@diyvachandler: 6/0 sympathy
+Oh no! feel better Kiira :(
+@pastman114: 3/0 flu
+hope you dont have the flu its flu season feel better
+@juliejuliejulie00: 4/0 mutual-aid
+ill bring a care package over sis!!! ill text u 😘
 
-@username
-2/999 dev
-Wow, a second tweet?
-@username: 94/1 no-tag
-Yeah, at this point we can just start writing content. The site can kinda support the outline of the project?
+@kwallzzzzzzzz
+8/0 none
+THANK U @juliejuliejulie00!!!!! I have enough gummi bears to last me for weeks now HAHA
+@juliejuliejulie00: 3/0 none
+of course!!! u looked better today when i visited hope ur feeling better😘
+@pastman114: 2/4 reply-guy
+I also love gummi bears lets share
 
-@ryguy9999
-0/0 tag1 tag2 tag3
-Posts should now be able to handle new lines like this:|
-|I don't know about the front though.
-@username: 5/124 tags-cant-have-spaces but-replies-can-have-multiple-too
-But what about replies?
-@ryguy9999: 97/3 no-tag
-Yes, even|
-|these as well.|
-|Just make sure to start them on a new line after the up/down vote.
+@pastman114
+4/6 reply-guy
+@kwallzzzzzzzz why did u block me im sorry :(
+@marinemariano: 6/2 none
+bro u gotta stop ur becoming a reply guy🤦‍♂️
+@captain0bvi0us: 5/2 none
+nah man don't listen to mariano shoot ya shot brother
