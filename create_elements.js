@@ -1,6 +1,8 @@
 const storage = window.localStorage;
 const article = document.getElementsByTagName("article")[0]
 const weekTitle = document.getElementById("week")
+const progressContainer = document.getElementById("progress-container")
+const progressBar = document.getElementById("progress-bar")
 
 const slides = [
     {
@@ -30,6 +32,7 @@ if(Number.isNaN(week)) {
 }
 
 function startSlide(idx) {
+    progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
     weekTitle.innerHTML = title
     article.innerHTML = text
@@ -52,10 +55,12 @@ function startSlide(idx) {
 }
 
 async function startWeek(slide, week) {
+    progressContainer.classList.remove("hidden")
     const { users, posts } = await fetchJSON("week" + week + "-content.json")
     weekTitle.innerHTML = "Week " + week
     let active_post = parseInt(storage.getItem('post'), 10) || 0
-    let arrows = []
+    const post_map = {}
+    const score_text_map = {}
     repaint()
 
     document.getElementById("prev").onclick = function() {
@@ -77,6 +82,8 @@ async function startWeek(slide, week) {
     }
 
     function repaint() {
+        let progress = (active_post + 1) / posts.length * 100;
+        progressBar.style.width = progress + '%';
         storage.setItem('post', active_post)
         if(active_post == 0) {
             document.getElementById("prev").classList.add("hidden")
@@ -95,6 +102,8 @@ async function startWeek(slide, week) {
     }
 
     function create_post(post) {
+        const unique_id = Math.random()
+        post_map[unique_id] = post
         const section = document.createElement("section")
         section.className = "post"
         const propic = document.createElement("img")
@@ -104,12 +113,22 @@ async function startWeek(slide, week) {
         section.appendChild(propic)
         const arrows = document.createElement("div")
         arrows.className = "arrows"
-        const uparrow = document.createElement("span")
-        const downarrow = document.createElement("span")
-        uparrow.className = "vote"
+        const uparrow = document.createElement("div")
+        const downarrow = document.createElement("div")
+        uparrow.className = "vote up"
         uparrow.innerHTML = "&uarr;"
-        downarrow.className = "vote"
+        downarrow.className = "vote down"
         downarrow.innerHTML = "&darr;"
+        const vote = storage.getItem("vote-" + unique_id)
+        if(vote == "up") {
+            uparrow.classList.add("active")
+        } else if(vote == "down") {
+            downarrow.classList.add("active")
+        }
+        uparrow.onclick = do_vote;
+        downarrow.onclick = do_vote;
+        uparrow.dataset.id = unique_id
+        downarrow.dataset.id = unique_id
         arrows.appendChild(uparrow)
         arrows.appendChild(downarrow)
         section.appendChild(arrows)
@@ -127,7 +146,14 @@ async function startWeek(slide, week) {
         userinfo.appendChild(handle)
         const score = document.createElement("span")
         score.className = "score"
-        score.innerHTML = (post.upvotes - post.downvotes) + " points"
+        let diff = 0;
+        if(vote == "up") {
+            diff = 1;
+        } else if(vote == "down") {
+            diff = -1;
+        }
+        score.innerHTML = (vote + post.upvotes - post.downvotes) + " points"
+        score_text_map[unique_id] = score
         userinfo.appendChild(score)
         main.appendChild(userinfo)
         const text = document.createElement("div")
@@ -142,6 +168,28 @@ async function startWeek(slide, week) {
         section.appendChild(main)
         return section;
     }
+
+    function do_vote(event) {
+        const target = event.target
+        const id = event.target.dataset.id
+        const post = post_map[event.target.dataset.id]
+
+        const is_up = target.classList.contains('up')
+
+        let change, vote
+        if(target.classList.contains('active')) {
+            target.classList.remove('active')
+            change = 0
+            vote = 'none'
+        } else {
+            target.classList.add('active')
+            change = is_up ? 1 : -1;
+            vote = is_up ? 'up' : 'down'
+        }
+        storage.setItem('vote-' + id, vote)
+
+        score_text_map[id].innerHTML = (change + post.upvotes - post.downvotes) + " points"
+    }
 }
 
 async function fetchJSON(url) {
@@ -151,7 +199,5 @@ async function fetchJSON(url) {
 }
 
 function devReset() {
-    storage.setItem('slide', null)
-    storage.setItem('week', null)
-    storage.setItem('post', null)
+    storage.clear()
 }

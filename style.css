@@ -88,3 +88,28 @@ article {
 .hidden {
     visibility: hidden;
 }
+
+.vote:hover {
+    cursor: pointer;
+}
+
+.vote.up.active {
+    color: orange;
+}
+
+.vote.down.active {
+    color: #0FF;
+}
+
+#progress-container {
+    margin: 0 auto;
+    width: 64%;
+    height: 32px;
+    background-color: #111;
+}
+
+#progress-bar {
+    width: 10%;
+    height: 100%;
+    background-color: #888;
+}
