@@ -1,6 +1,8 @@
 const storage = window.localStorage;
 const article = document.getElementsByTagName("article")[0]
 const weekTitle = document.getElementById("week")
+const progressContainer = document.getElementById("progress-container")
+const progressBar = document.getElementById("progress-bar")
 
 const slides = [
     {
@@ -30,6 +32,7 @@ if(Number.isNaN(week)) {
 }
 
 function startSlide(idx) {
+    progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
     weekTitle.innerHTML = title
     article.innerHTML = text
@@ -52,6 +55,7 @@ function startSlide(idx) {
 }
 
 async function startWeek(slide, week) {
+    progressContainer.classList.remove("hidden")
     const { users, posts } = await fetchJSON("week" + week + "-content.json")
     weekTitle.innerHTML = "Week " + week
     let active_post = parseInt(storage.getItem('post'), 10) || 0
@@ -78,6 +82,8 @@ async function startWeek(slide, week) {
     }
 
     function repaint() {
+        let progress = (active_post + 1) / posts.length * 100;
+        progressBar.style.width = progress + '%';
         storage.setItem('post', active_post)
         if(active_post == 0) {
             document.getElementById("prev").classList.add("hidden")
