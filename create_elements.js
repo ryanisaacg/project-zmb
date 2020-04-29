@@ -61,6 +61,7 @@ async function startWeek(slide, week) {
     let active_post = parseInt(storage.getItem('post'), 10) || 0
     const post_map = {}
     const score_text_map = {}
+    const arrows_map = {}
     repaint()
 
     document.getElementById("prev").onclick = function() {
@@ -129,6 +130,7 @@ async function startWeek(slide, week) {
         downarrow.onclick = do_vote;
         uparrow.dataset.id = unique_id
         downarrow.dataset.id = unique_id
+        arrows_map[unique_id] = [uparrow, downarrow]
         arrows.appendChild(uparrow)
         arrows.appendChild(downarrow)
         section.appendChild(arrows)
@@ -172,7 +174,7 @@ async function startWeek(slide, week) {
     function do_vote(event) {
         const target = event.target
         const id = event.target.dataset.id
-        const post = post_map[event.target.dataset.id]
+        const post = post_map[id]
 
         const is_up = target.classList.contains('up')
 
@@ -182,6 +184,7 @@ async function startWeek(slide, week) {
             change = 0
             vote = 'none'
         } else {
+            arrows_map[id].forEach(arrow => arrow.classList.remove('active'))
             target.classList.add('active')
             change = is_up ? 1 : -1;
             vote = is_up ? 'up' : 'down'
