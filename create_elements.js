@@ -102,7 +102,7 @@ async function startWeek(slide, week) {
     }
 
     function create_post(post) {
-        const unique_id = Math.random()
+        const unique_id = post.UUID
         post_map[unique_id] = post
         const section = document.createElement("section")
         section.className = "post"
@@ -152,7 +152,7 @@ async function startWeek(slide, week) {
         } else if(vote == "down") {
             diff = -1;
         }
-        score.innerHTML = (vote + post.upvotes - post.downvotes) + " points"
+        score.innerHTML = (diff + post.upvotes - post.downvotes) + " points"
         score_text_map[unique_id] = score
         userinfo.appendChild(score)
         main.appendChild(userinfo)
