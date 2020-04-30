@@ -15,12 +15,12 @@ const slides = [
     },
     {
         title: "Week 1",
-        text: "",
+        text: "Business as usual.",
         week: 1,
     },
     {
         title: "Week 2",
-        text: "",
+        text: "Everything's fine. I promise.",
         week: 2,
     },
     {
@@ -45,7 +45,7 @@ function startSlide(idx) {
     progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
     weekTitle.innerHTML = title
-    article.innerHTML = text
+    article.innerHTML = '<h3>' + text + '</h3>'
     document.getElementById("prev").classList.add("hidden")
     if(idx + 1 == slides.length) {
         document.getElementById("next").classList.add("hidden")

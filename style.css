@@ -15,6 +15,10 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 main {
     margin-top: 128px;
     /* Set the content in a row with as much space between it as possible */
