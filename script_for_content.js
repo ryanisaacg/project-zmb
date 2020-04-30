@@ -54,8 +54,8 @@ function handleFile(file) {
           outputText += `\t\t\t"content": "${initialPost.replace(/\n$/, '').replace(/\n/g, '\\n')}",\n`+
           `\t\t\t"replies": [\n`
 
-          // TODO: This has a problem where if a reply includes a newline + @ someone, it will be split as a separate reply
-          replies = replies.split('\n@')
+          replies = replies.replace(/\n@.+: \d+\/\d+/g, "delimeterthatshouldefinitelynotappearanywhereinthetextofourproject$&")
+          replies = replies.split('delimeterthatshouldefinitelynotappearanywhereinthetextofourproject\n@')
           replies[0] = replies[0].substring(1)
 
           replies.forEach((reply) => {
