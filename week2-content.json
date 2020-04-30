@@ -1,36 +1,272 @@
 {
 	"users": [
 		{
-			"name": "Display Name",
-			"handle": "username",
+			"name": "Kira Waller",
+			"handle": "kwallzzzzzzzz",
 			"avi": "beach-ball.png"
 		},
 		{
-			"name": "Ryan C",
-			"handle": "ryguy9999",
+			"name": "Ddi-ddi-ddi",
+			"handle": "diyvachandler",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Mr. Pastman",
+			"handle": "pastman114",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "julie 💖s oscar",
+			"handle": "juliejuliejulie00",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "its me! mario!",
+			"handle": "marinemariano",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "raj",
+			"handle": "captain0bvi0us",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Worldwide News Network (Official)",
+			"handle": "WWNN",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Gayle Lorenzo, PhD",
+			"handle": "glorenzo",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Carol",
+			"handle": "cl928238",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "jisung's baby girl",
+			"handle": "lgbtjisungies",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Greengrass Pharmacy",
+			"handle": "GreenGrass",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Comrade Jameson",
+			"handle": "anarkeereinz",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Mike4America",
+			"handle": "deplorablemike",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Paul Klein",
+			"handle": "wwnnpaulklein",
 			"avi": "beach-ball.png"
 		}
 	],
 	"posts": [
 		{
-			"UUID": 29,
-			"user": "ryguy9999",
-			"upvotes": 1,
-			"downvotes": 4,
+			"UUID": 31,
+			"user": "juliejuliejulie00",
+			"upvotes": 6,
+			"downvotes": 0,
 			"tags": [
-				"dev"
+				"nurse"
 			],
-			"content": "HE-LLLLLOOO WEEK 2!",
+			"content": "putting the scrubs on a monday hits different 😭",
 			"replies": [
 				{
-					"UUID": 30,
-					"user": "username",
-					"upvotes": 0,
-					"downvotes": 46,
+					"UUID": 32,
+					"user": "pastman114",
+					"upvotes": 2,
+					"downvotes": 4,
 					"tags": [
-						"dev"
+						"snark"
 					],
-					"content": "So it seems posts need a reply?"
+					"content": "mOnDayS aM i RiGhT? ok boomer"
+				},
+				{
+					"UUID": 33,
+					"user": "juliejuliejulie00",
+					"upvotes": 5,
+					"downvotes": 1,
+					"tags": [
+						"none"
+					],
+					"content": "shut <i>up</i> dude lmao"
+				},
+				{
+					"UUID": 34,
+					"user": "diyvachandler",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "he kinda right tho 🙄"
+				},
+				{
+					"UUID": 35,
+					"user": "juliejuliejulie00",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"nurse"
+					],
+					"content": "if yall wanna come down here and do my job be my guest. we're really slammed this week tbh"
+				},
+				{
+					"UUID": 36,
+					"user": "diyvachandler",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "sorrryyy you know ily"
+				},
+				{
+					"UUID": 37,
+					"user": "juliejuliejulie00",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "yeah im sorry too, just stressed"
+				}
+			]
+		},
+		{
+			"UUID": 38,
+			"user": "deplorablemike",
+			"upvotes": 200,
+			"downvotes": 135,
+			"tags": [
+				"maga"
+			],
+			"content": "Glad the President is speaking truth to the fake news media!!",
+			"replies": [
+				{
+					"UUID": 39,
+					"user": "wwnnpaulklein",
+					"upvotes": 60,
+					"downvotes": 21,
+					"tags": [
+						"lib"
+					],
+					"content": "I think this sets a dangerous precident, especially as this is a new and developing situation."
+				},
+				{
+					"UUID": 40,
+					"user": "deplorablemike",
+					"upvotes": 100,
+					"downvotes": 53,
+					"tags": [
+						"maga"
+					],
+					"content": "wrong! it shows america is strong and not afraid of anything"
+				},
+				{
+					"UUID": 41,
+					"user": "wwnnpaulklein",
+					"upvotes": 150,
+					"downvotes": 38,
+					"tags": [
+						"lib"
+					],
+					"content": "Actually I can only see this hurting the image of the United States in the long run. It goes against the principles of our great country."
+				},
+				{
+					"UUID": 42,
+					"user": "deplorablemike",
+					"upvotes": 120,
+					"downvotes": 79,
+					"tags": [
+						"maga"
+					],
+					"content": "Boo-hoo snowflake. Feelings hurt much?"
+				}
+			]
+		},
+		{
+			"UUID": 43,
+			"user": "pastman114",
+			"upvotes": 3,
+			"downvotes": 0,
+			"tags": [
+				"reply-guy"
+			],
+			"content": "tyyy for unblocking me @kwallzzzzzzzz",
+			"replies": [
+				{
+					"UUID": 44,
+					"user": "kwallzzzzzzzz",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "np lol, been cranky bc of cold"
+				},
+				{
+					"UUID": 45,
+					"user": "pastman114",
+					"upvotes": 1,
+					"downvotes": 4,
+					"tags": [
+						"alarm"
+					],
+					"content": "do you think it's the superflu from the news lol"
+				}
+			]
+		},
+		{
+			"UUID": 46,
+			"user": "pastman114",
+			"upvotes": 2,
+			"downvotes": 0,
+			"tags": [
+				"reply-guy"
+			],
+			"content": "Damn she blocked me again",
+			"replies": [
+				{
+					"UUID": 47,
+					"user": "captain0bvi0us",
+					"upvotes": 5,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "inb4 mariano gloats"
+				},
+				{
+					"UUID": 48,
+					"user": "marinemariano",
+					"upvotes": 8,
+					"downvotes": 1,
+					"tags": [
+						"none"
+					],
+					"content": "I fucking <i>told</i> you bro"
+				},
+				{
+					"UUID": 49,
+					"user": "captain0bvi0us",
+					"upvotes": 13,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "there it is lmao"
 				}
 			]
 		}

@@ -64,6 +64,11 @@
 			"name": "Mike4America",
 			"handle": "deplorablemike",
 			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Paul Klein",
+			"handle": "wwnnpaulklein",
+			"avi": "beach-ball.png"
 		}
 	],
 	"posts": [
@@ -115,7 +120,7 @@
 			"upvotes": 260,
 			"downvotes": 13,
 			"tags": [
-				"ad"
+				"ad", "pr"
 			],
 			"content": "Our pharmacies are open 24/7 for all your needs. Make sure to get your yearly flu vaccines at any of our locations!",
 			"replies": [
@@ -148,11 +153,31 @@
 						"conspiracy"
 					],
 					"content": "Vaccines are poison!!"
+				},
+				{
+					"UUID": 9,
+					"user": "wwnnpaulklein",
+					"upvotes": 60,
+					"downvotes": 2,
+					"tags": [
+						"news"
+					],
+					"content": "Any comment on rumors regarding the effectiveness of this year's vaccine?"
+				},
+				{
+					"UUID": 10,
+					"user": "GreenGrass",
+					"upvotes": 50,
+					"downvotes": 25,
+					"tags": [
+						"pr"
+					],
+					"content": "GreenGrass Pharmacies does not comment on rumors or speculation!"
 				}
 			]
 		},
 		{
-			"UUID": 9,
+			"UUID": 11,
 			"user": "kwallzzzzzzzz",
 			"upvotes": 8,
 			"downvotes": 0,
@@ -162,7 +187,7 @@
 			"content": "THANK U @juliejuliejulie00!!!!! I have enough gummi bears to last me for weeks now HAHA",
 			"replies": [
 				{
-					"UUID": 10,
+					"UUID": 12,
 					"user": "juliejuliejulie00",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -172,7 +197,7 @@
 					"content": "of course!!! u looked better today when i visited hope ur feeling better😘"
 				},
 				{
-					"UUID": 11,
+					"UUID": 13,
 					"user": "pastman114",
 					"upvotes": 2,
 					"downvotes": 4,
@@ -184,7 +209,7 @@
 			]
 		},
 		{
-			"UUID": 12,
+			"UUID": 14,
 			"user": "pastman114",
 			"upvotes": 4,
 			"downvotes": 6,
@@ -194,7 +219,7 @@
 			"content": "@kwallzzzzzzzz why did u block me im sorry :(",
 			"replies": [
 				{
-					"UUID": 13,
+					"UUID": 15,
 					"user": "marinemariano",
 					"upvotes": 6,
 					"downvotes": 2,
@@ -204,7 +229,7 @@
 					"content": "bro u gotta stop ur becoming a reply guy🤦‍♂️"
 				},
 				{
-					"UUID": 14,
+					"UUID": 16,
 					"user": "captain0bvi0us",
 					"upvotes": 5,
 					"downvotes": 2,
@@ -216,17 +241,17 @@
 			]
 		},
 		{
-			"UUID": 15,
+			"UUID": 17,
 			"user": "WWNN",
 			"upvotes": 3000,
 			"downvotes": 12,
 			"tags": [
 				"news"
 			],
-			"content": "Scientists discover new strain of the flu that seems unaffeced by the flu vaccine- but they say not to worry. Read more on our website!",
+			"content": "Scientists discover new strain of the flu that seems unaffected by the flu vaccine- but they say not to worry. Read more on our website!",
 			"replies": [
 				{
-					"UUID": 16,
+					"UUID": 18,
 					"user": "glorenzo",
 					"upvotes": 30,
 					"downvotes": 70,
@@ -236,7 +261,7 @@
 					"content": "Not worrying is right! Labs like mine are already working on a new vaccine. For now, just remember to wash your hands and stay inside if you don't feel well."
 				},
 				{
-					"UUID": 17,
+					"UUID": 19,
 					"user": "cl928238",
 					"upvotes": 30,
 					"downvotes": 26,
@@ -246,7 +271,7 @@
 					"content": "not worrying!!! That's what the govt WANTS you to think!!!! There are chips in those vaccines, wake up!"
 				},
 				{
-					"UUID": 18,
+					"UUID": 20,
 					"user": "captain0bvi0us",
 					"upvotes": 200,
 					"downvotes": 16,
@@ -256,7 +281,7 @@
 					"content": "lady wtf LMAO"
 				},
 				{
-					"UUID": 19,
+					"UUID": 21,
 					"user": "lgbtjisungies",
 					"upvotes": 300,
 					"downvotes": 20,
@@ -266,7 +291,7 @@
 					"content": "maybe if you stanned VTS carol"
 				},
 				{
-					"UUID": 20,
+					"UUID": 22,
 					"user": "deplorablemike",
 					"upvotes": 150,
 					"downvotes": 13,
@@ -278,7 +303,7 @@
 			]
 		},
 		{
-			"UUID": 21,
+			"UUID": 23,
 			"user": "captain0bvi0us",
 			"upvotes": 10,
 			"downvotes": 1,
@@ -288,7 +313,7 @@
 			"content": "Yo who's tryna play BraveHonor tonight",
 			"replies": [
 				{
-					"UUID": 22,
+					"UUID": 24,
 					"user": "marinemariano",
 					"upvotes": 2,
 					"downvotes": 1,
@@ -298,7 +323,7 @@
 					"content": "u kno it"
 				},
 				{
-					"UUID": 23,
+					"UUID": 25,
 					"user": "pastman114",
 					"upvotes": 0,
 					"downvotes": 0,
@@ -308,7 +333,7 @@
 					"content": "should i ditch my term paper to play 🤔"
 				},
 				{
-					"UUID": 24,
+					"UUID": 26,
 					"user": "diyvachandler",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -318,7 +343,7 @@
 					"content": "lol @pastman114 we all know you're gonna"
 				},
 				{
-					"UUID": 25,
+					"UUID": 27,
 					"user": "juliejuliejulie00",
 					"upvotes": 4,
 					"downvotes": 0,
@@ -330,7 +355,7 @@
 			]
 		},
 		{
-			"UUID": 26,
+			"UUID": 28,
 			"user": "diyvachandler",
 			"upvotes": 13,
 			"downvotes": 0,
@@ -340,7 +365,7 @@
 			"content": "We missed u at trivia night @kwallzzzzzzzz wya",
 			"replies": [
 				{
-					"UUID": 27,
+					"UUID": 29,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 4,
 					"downvotes": 1,
@@ -350,7 +375,7 @@
 					"content": "Still sick sorry 🙁"
 				},
 				{
-					"UUID": 28,
+					"UUID": 30,
 					"user": "diyvachandler",
 					"upvotes": 2,
 					"downvotes": 0,
