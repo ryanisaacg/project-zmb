@@ -25,8 +25,13 @@ const slides = [
     },
     {
         title: "Week 3",
-        text: "Please don't panic",
+        text: "The situation is under control.",
         week: 3
+    },
+    {
+        title: "Week 4",
+        text: "Please don't panic.",
+        week: 4
     },
     {
         title: "That's all, folks!",

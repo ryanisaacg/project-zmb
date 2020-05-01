@@ -1,0 +1,279 @@
+{
+	"users": [
+		{
+			"name": "Kira Waller",
+			"handle": "kwallzzzzzzzz",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Ddi-ddi-ddi",
+			"handle": "diyvachandler",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Mr. Pastman",
+			"handle": "pastman114",
+			"avi": "pastman.png"
+		},
+		{
+			"name": "julie 💖s oscar",
+			"handle": "juliejuliejulie00",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "raj",
+			"handle": "captain0bvi0us",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Worldwide News Network (Official)",
+			"handle": "WWNN",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Gayle Lorenzo, PhD",
+			"handle": "glorenzo",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Carol",
+			"handle": "cl928238",
+			"avi": "carol.png"
+		},
+		{
+			"name": "jisung's baby girl",
+			"handle": "lgbtjisungies",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Greengrass Pharmacy",
+			"handle": "GreenGrass",
+			"avi": "green-grass-pharmacy.png"
+		},
+		{
+			"name": "Comrade Jameson",
+			"handle": "anarkeereinz",
+			"avi": "jameson.png"
+		},
+		{
+			"name": "Mike4America",
+			"handle": "deplorablemike",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Paul Klein",
+			"handle": "wwnnpaulklein",
+			"avi": "paul-klein.png"
+		}
+	],
+	"posts": [
+		{
+			"UUID": 61,
+			"user": "WWNN",
+			"upvotes": 200,
+			"downvotes": 15,
+			"tags": [
+				"news"
+			],
+			"content": "On one side, politicians. On the other, epidemielogists. One says this is business as usual, with an unusually bad flu season. The other says we should be very worried.",
+			"replies": [
+				{
+					"UUID": 62,
+					"user": "deplorablemike",
+					"upvotes": 150,
+					"downvotes": 16,
+					"tags": [
+						"maga"
+					],
+					"content": "Fearmongering to hurt the President won't work! Wonder who is funding these \"experts.\""
+				},
+				{
+					"UUID": 63,
+					"user": "glorenzo",
+					"upvotes": 15,
+					"downvotes": 30,
+					"tags": [
+						"science"
+					],
+					"content": "Are you suggesting my colleagues and I are being paid to <i>lie</i>?"
+				},
+				{
+					"UUID": 64,
+					"user": "deplorablemike",
+					"upvotes": 60,
+					"downvotes": 3,
+					"tags": [
+						"maga"
+					],
+					"content": "You said it, not me!"
+				}
+			]
+		},
+		{
+			"UUID": 65,
+			"user": "pastman114",
+			"upvotes": 3,
+			"downvotes": 0,
+			"tags": [
+				"none"
+			],
+			"content": "yo I just saw @marinemariano in the background of a news shot",
+			"replies": [
+				{
+					"UUID": 66,
+					"user": "captain0bvi0us",
+					"upvotes": 4,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "is he ok??"
+				},
+				{
+					"UUID": 67,
+					"user": "pastman114",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "yeah he looks fine, maybe his internet is out or somethin"
+				},
+				{
+					"UUID": 68,
+					"user": "captain0bvi0us",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "where is he??"
+				},
+				{
+					"UUID": 69,
+					"user": "pastman114",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "idk it was in one of those \"riots\""
+				},
+				{
+					"UUID": 70,
+					"user": "captain0bvi0us",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "wtf"
+				}
+			]
+		},
+		{
+			"UUID": 71,
+			"user": "glorenzo",
+			"upvotes": 100,
+			"downvotes": 18,
+			"tags": [
+				"science"
+			],
+			"content": "I hate to make public statements like this, but the equivocation by @WWNN is dangerous. This is not a flu. We are facing an unprecedented crisis.",
+			"replies": [
+				{
+					"UUID": 72,
+					"user": "wwnnpaulklein",
+					"upvotes": 200,
+					"downvotes": 63,
+					"tags": [
+						"news"
+					],
+					"content": "What is it then? I think the public deserves both sides of the story, especially in the case of a developing story."
+				},
+				{
+					"UUID": 73,
+					"user": "glorenzo",
+					"upvotes": 150,
+					"downvotes": 13,
+					"tags": [
+						"science"
+					],
+					"content": "What sides? My lab is one of the only places that has sequenced the virus's genome. What other side is there?"
+				},
+				{
+					"UUID": 74,
+					"user": "deplorablemike",
+					"upvotes": 100,
+					"downvotes": 13,
+					"tags": [
+						"maga"
+					],
+					"content": "I don't know, just the LEADER OF THE FREE WORLD? typical coastal elite"
+				},
+				{
+					"UUID": 75,
+					"user": "wwnnpaulklein",
+					"upvotes": 60,
+					"downvotes": 25,
+					"tags": [
+						"none"
+					],
+					"content": "As much as I hate to agree with Mike, I can't belive you're dismissing POTUS like this @glorenzo"
+				},
+				{
+					"UUID": 76,
+					"user": "glorenzo",
+					"upvotes": 5,
+					"downvotes": 31,
+					"tags": [
+						"science"
+					],
+					"content": "I have better things to do than get into arguments online."
+				}
+			]
+		},
+		{
+			"UUID": 77,
+			"user": "kwallzzzzzzzz",
+			"upvotes": 5,
+			"downvotes": 0,
+			"tags": [
+				"sick"
+			],
+			"content": "my symptoms match the checklists coming out of the news, what do I do",
+			"replies": [
+				{
+					"UUID": 78,
+					"user": "juliejuliejulie00",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"nurse"
+					],
+					"content": "i texted u a list of symptoms im seeing in my patients"
+				},
+				{
+					"UUID": 79,
+					"user": "kwallzzzzzzzz",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"sick"
+					],
+					"content": "I have all of these im freaking out wtf do i do am i gonna die"
+				},
+				{
+					"UUID": 80,
+					"user": "juliejuliejulie00",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"nurse"
+					],
+					"content": "stay calm ill come check on you after work today"
+				}
+			]
+		}
+	]
+}

@@ -41,7 +41,7 @@ function handleFile(file) {
               `\t\t\t"downvotes": ${votes.split("/")[1].split(' ')[0]},\n`+
               `\t\t\t"tags": [\n`
           } catch(e) {
-              console.log(initialPost)
+              console.log(post)
               throw e;
           }
           initialPost = initialPost.substring(initialPost.indexOf(' ')+1)
