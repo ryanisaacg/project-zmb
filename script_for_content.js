@@ -10,7 +10,7 @@ function handleFile(file) {
       }
 
       outputText = "{\n"
-      data = data.replace(/\r/g, '')
+      data = data.replace(/\r/g, '').replace(/"/g, '\\"')
       data = data.split('-------------------------------------\n')
       users = data[0]
       posts = data[1]
