@@ -12,16 +12,7 @@ const slides = [
     {
         title: "How to Play",
         text: "Use the arrows to navigate the posts. (Please don't use your browser arrows!) Enjoy!",
-    },
-    {
-        title: "Week 1",
-        text: "Business as usual.",
         week: 1,
-    },
-    {
-        title: "Week 2",
-        text: "Everything's fine. I promise.",
-        week: 2,
     },
     {
         title: "That's all, folks!",
@@ -41,11 +32,10 @@ if(Number.isNaN(week)) {
 }
 
 function startSlide(idx) {
-    storage.setItem('post', 0)
     progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
     weekTitle.innerHTML = title
-    article.innerHTML = '<h3>' + text + '</h3>'
+    article.innerHTML = text
     document.getElementById("prev").classList.add("hidden")
     if(idx + 1 == slides.length) {
         document.getElementById("next").classList.add("hidden")

@@ -214,10 +214,30 @@
 					"tags": [
 						"none"
 					],
-					"content": "np lol, been cranky bc of cold"
+					"content": "np lol, been cranky bc of cold. how're you"
 				},
 				{
 					"UUID": 45,
+					"user": "pastman114",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "pretty good, hbu"
+				},
+				{
+					"UUID": 46,
+					"user": "kwallzzzzzzzz",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "still sick 😢"
+				},
+				{
+					"UUID": 47,
 					"user": "pastman114",
 					"upvotes": 1,
 					"downvotes": 4,
@@ -229,7 +249,7 @@
 			]
 		},
 		{
-			"UUID": 46,
+			"UUID": 48,
 			"user": "pastman114",
 			"upvotes": 2,
 			"downvotes": 0,
@@ -239,7 +259,7 @@
 			"content": "Damn she blocked me again",
 			"replies": [
 				{
-					"UUID": 47,
+					"UUID": 49,
 					"user": "captain0bvi0us",
 					"upvotes": 5,
 					"downvotes": 0,
@@ -249,7 +269,7 @@
 					"content": "inb4 mariano gloats"
 				},
 				{
-					"UUID": 48,
+					"UUID": 50,
 					"user": "marinemariano",
 					"upvotes": 8,
 					"downvotes": 1,
@@ -259,7 +279,7 @@
 					"content": "I fucking <i>told</i> you bro"
 				},
 				{
-					"UUID": 49,
+					"UUID": 51,
 					"user": "captain0bvi0us",
 					"upvotes": 13,
 					"downvotes": 0,
@@ -271,7 +291,7 @@
 			]
 		},
 		{
-			"UUID": 50,
+			"UUID": 52,
 			"user": "kwallzzzzzzzz",
 			"upvotes": 5,
 			"downvotes": 0,
@@ -281,7 +301,7 @@
 			"content": "ugh my head is pounding. feel way worse than a couple days ago",
 			"replies": [
 				{
-					"UUID": 51,
+					"UUID": 53,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -289,6 +309,78 @@
 						"sick"
 					],
 					"content": "and my fever is up to 103"
+				},
+				{
+					"UUID": 54,
+					"user": "juliejuliejulie00",
+					"upvotes": 5,
+					"downvotes": 0,
+					"tags": [
+						"nurse"
+					],
+					"content": "oh no!! drink plenty of water b"
+				}
+			]
+		},
+		{
+			"UUID": 55,
+			"user": "WWNN",
+			"upvotes": 500,
+			"downvotes": 22,
+			"tags": [
+				"news"
+			],
+			"content": "It is important, in these turbulent times, to avoid spreading rumors and misinformation. There is no evidence that this year's influenza is anything out of the ordinary! Read more about the flu vaccine on our website.",
+			"replies": [
+				{
+					"UUID": 56,
+					"user": "glorenzo",
+					"upvotes": 30,
+					"downvotes": 45,
+					"tags": [
+						"science"
+					],
+					"content": "I'm not sure we can be this confident about anything at the current moment! It might be best to refrain from making definitive statements until we know more."
+				},
+				{
+					"UUID": 57,
+					"user": "cl928238",
+					"upvotes": 100,
+					"downvotes": 15,
+					"tags": [
+						"conspiracy"
+					],
+					"content": "Vaccines are poison anyway!! Jail the criminals who push them on our kids."
+				},
+				{
+					"UUID": 58,
+					"user": "wwnnpaulklein",
+					"upvotes": 130,
+					"downvotes": 16,
+					"tags": [
+						"news"
+					],
+					"content": "Author of the article here: don't you think waiting for scientific consensus is irresponsible? @glorenzo"
+				},
+				{
+					"UUID": 59,
+					"user": "anarkeereinz",
+					"upvotes": 50,
+					"downvotes": 3,
+					"tags": [
+						"conspiracy"
+					],
+					"content": "We all know the flu is a CIA psy-op"
+				},
+				{
+					"UUID": 60,
+					"user": "glorenzo",
+					"upvotes": 3,
+					"downvotes": 10,
+					"tags": [
+						"science"
+					],
+					"content": "I'm just saying that we don't know enough to assert that this disease is an ordinary flu."
 				}
 			]
 		}
