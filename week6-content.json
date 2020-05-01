@@ -1,0 +1,137 @@
+{
+	"users": [
+		{
+			"name": "Ddi-ddi-ddi",
+			"handle": "diyvachandler",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Mr. Pastman",
+			"handle": "pastman114",
+			"avi": "pastman.png"
+		},
+		{
+			"name": "raj",
+			"handle": "captain0bvi0us",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Worldwide News Network (Official)",
+			"handle": "WWNN",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Gayle Lorenzo, PhD",
+			"handle": "glorenzo",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Carol",
+			"handle": "cl928238",
+			"avi": "carol.png"
+		},
+		{
+			"name": "jisung's baby girl",
+			"handle": "lgbtjisungies",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Greengrass Pharmacy",
+			"handle": "GreenGrass",
+			"avi": "green-grass-pharmacy.png"
+		},
+		{
+			"name": "Comrade Jameson",
+			"handle": "anarkeereinz",
+			"avi": "jameson.png"
+		},
+		{
+			"name": "Mike4America",
+			"handle": "deplorablemike",
+			"avi": "mike-propic.svg"
+		},
+		{
+			"name": "Paul Klein",
+			"handle": "wwnnpaulklein",
+			"avi": "paul-klein.png"
+		},
+		{
+			"name": "Old Newton Gazette",
+			"handle": "oldnewtongazette",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "EMERGENCY BROADCAST",
+			"handle": "emergency",
+			"avi": "emergency.webp"
+		}
+	],
+	"posts": [
+		{
+			"UUID": 121,
+			"user": "emergency",
+			"upvotes": 0,
+			"downvotes": 0,
+			"tags": [
+				"alarm"
+			],
+			"content": "THIS IS AN EMERGENCY MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.",
+			"replies": [
+				{
+					"UUID": 122,
+					"user": "emergency",
+					"upvotes": 0,
+					"downvotes": 0,
+					"tags": [
+						"alarm"
+					],
+					"content": "IF YOU NEED ANYTHING, CONTACT A LOCAL POLICE DEPARTMENT OR THE NATIONAL GUARD. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES."
+				}
+			]
+		},
+		{
+			"UUID": 123,
+			"user": "WWNN",
+			"upvotes": 200,
+			"downvotes": 13,
+			"tags": [
+				"none"
+			],
+			"content": "Uncomfirmed reports say the President has been injured or killed in a struggle with the Secret Service. More on this story as it develops.",
+			"replies": [
+				{
+					"UUID": 124,
+					"user": "WNN",
+					"upvotes": 150,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "New information indicates the President physically attacked the Speaker of the House, who is now in critical condition. During a subsequent altercation, a Secret Service member discharged their weapon, killing POTUS. See the latest on our website."
+				}
+			]
+		},
+		{
+			"UUID": 125,
+			"user": "wwnnpaulklein",
+			"upvotes": 15,
+			"downvotes": 0,
+			"tags": [
+				"none"
+			],
+			"content": "We had a good run, didn't we.",
+			"replies": [
+				{
+					"UUID": 126,
+					"user": "glorenzo",
+					"upvotes": 13,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "I hope whatever comes next doesn't repeat our mistakes."
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,172 @@
+{
+	"users": [
+		{
+			"name": "Ddi-ddi-ddi",
+			"handle": "diyvachandler",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Mr. Pastman",
+			"handle": "pastman114",
+			"avi": "pastman.png"
+		},
+		{
+			"name": "raj",
+			"handle": "captain0bvi0us",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Worldwide News Network (Official)",
+			"handle": "WWNN",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Gayle Lorenzo, PhD",
+			"handle": "glorenzo",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Carol",
+			"handle": "cl928238",
+			"avi": "carol.png"
+		},
+		{
+			"name": "jisung's baby girl",
+			"handle": "lgbtjisungies",
+			"avi": "beach-ball.png"
+		},
+		{
+			"name": "Greengrass Pharmacy",
+			"handle": "GreenGrass",
+			"avi": "green-grass-pharmacy.png"
+		},
+		{
+			"name": "Comrade Jameson",
+			"handle": "anarkeereinz",
+			"avi": "jameson.png"
+		},
+		{
+			"name": "Mike4America",
+			"handle": "deplorablemike",
+			"avi": "mike-propic.svg"
+		},
+		{
+			"name": "Paul Klein",
+			"handle": "wwnnpaulklein",
+			"avi": "paul-klein.png"
+		},
+		{
+			"name": "Old Newton Gazette",
+			"handle": "oldnewtongazette",
+			"avi": "beach-ball.png"
+		}
+	],
+	"posts": [
+		{
+			"UUID": 61,
+			"user": "oldnewtongazette",
+			"upvotes": 60,
+			"downvotes": 3,
+			"tags": [
+				"news"
+			],
+			"content": "Missing persons reports continue to mount, including local nurse Julie Oscar, who was last seen departing for a wellness check.",
+			"replies": [
+				{
+					"UUID": 62,
+					"user": "captain0bvi0us",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "holy fucking shit @diyvachandler are you seeing this"
+				},
+				{
+					"UUID": 63,
+					"user": "diyvachandler",
+					"upvotes": 2,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "oh my god... are julie and kiira okay?"
+				},
+				{
+					"UUID": 64,
+					"user": "captain0bvi0us",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "im going to go to kiiras place and check on her"
+				},
+				{
+					"UUID": 65,
+					"user": "diyvachandler",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "no dont its not safe"
+				}
+			]
+		},
+		{
+			"UUID": 66,
+			"user": "deplorablemike",
+			"upvotes": 160,
+			"downvotes": 3,
+			"tags": [
+				"maga"
+			],
+			"content": "No matter what stay-at-home orders we get, I'll be come at you live on 106.1 'The Voice.' No flu-zombie is going to stop me exercising my god-given rights as an American!",
+			"replies": [
+				{
+					"UUID": 67,
+					"user": "anarkeereinz",
+					"upvotes": 15,
+					"downvotes": 0,
+					"tags": [
+						"reply-guy"
+					],
+					"content": "Can't believe the zombies are going to eat the rich for me."
+				},
+				{
+					"UUID": 68,
+					"user": "cl928238",
+					"upvotes": 2,
+					"downvotes": 13,
+					"tags": [
+						"none"
+					],
+					"content": "What a horrible thing to say!"
+				}
+			]
+		},
+		{
+			"UUID": 69,
+			"user": "WWNN",
+			"upvotes": 300,
+			"downvotes": 18,
+			"tags": [
+				"news"
+			],
+			"content": "The President has cancelled a press conference today, citing the \"fake news\" media. Speculation is rampant that he has been infected with what scientists are calling the Z-virus.",
+			"replies": [
+				{
+					"UUID": 70,
+					"user": "deplorablemike",
+					"upvotes": 200,
+					"downvotes": 51,
+					"tags": [
+						"maga"
+					],
+					"content": "Real Americans aren't fooled by fake news!"
+				}
+			]
+		}
+	]
+}

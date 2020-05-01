@@ -1,0 +1,33 @@
+{
+	"users": [
+		{
+			"name": "EMERGENCY BROADCAST",
+			"handle": "emergency",
+			"avi": "emergency.webp"
+		}
+	],
+	"posts": [
+		{
+			"UUID": 127,
+			"user": "emergency",
+			"upvotes": 0,
+			"downvotes": 0,
+			"tags": [
+				"alarm"
+			],
+			"content": "THIS IS AN EMERGENCY MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.",
+			"replies": [
+				{
+					"UUID": 128,
+					"user": "emergency",
+					"upvotes": 0,
+					"downvotes": 0,
+					"tags": [
+						"alarm"
+					],
+					"content": "IF YOU NEED ANYTHING, CONTACT A LOCAL POLICE DEPARTMENT OR THE NATIONAL GUARD. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES."
+				}
+			]
+		}
+	]
+}

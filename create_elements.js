@@ -34,8 +34,23 @@ const slides = [
         week: 4
     },
     {
-        title: "That's all, folks!",
-        text: "Thanks for playing!",
+        title: "Week 5",
+        text: "It's all falling apart.",
+        week: 5
+    },
+    {
+        title: "Week 6",
+        text: "At least we tried.",
+        week: 6
+    },
+    {
+        title: "Week 7",
+        text: "...",
+        week: 7,
+    },
+    {
+        title: "The End",
+        text: "...",
     }
 ]
 
@@ -47,7 +62,7 @@ if(Number.isNaN(week)) {
     }
     startSlide(slide)
 } else {
-    startWeek(slide, week);
+    startWeek(week - 1, week);
 }
 
 function startSlide(idx) {
