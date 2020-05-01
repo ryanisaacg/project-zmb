@@ -36,9 +36,14 @@ function handleFile(file) {
           initialPost = initialPost.substring(i+1)
 
           votes = initialPost.split('\n')[0]
-          outputText += `\t\t\t"upvotes": ${votes.split('/')[0]},\n`+
-          `\t\t\t"downvotes": ${votes.split("/")[1].split(' ')[0]},\n`+
-          `\t\t\t"tags": [\n`
+          try {
+              outputText += `\t\t\t"upvotes": ${votes.split('/')[0]},\n`+
+              `\t\t\t"downvotes": ${votes.split("/")[1].split(' ')[0]},\n`+
+              `\t\t\t"tags": [\n`
+          } catch(e) {
+              console.log(initialPost)
+              throw e;
+          }
           initialPost = initialPost.substring(initialPost.indexOf(' ')+1)
           tags = initialPost.substring(0, initialPost.indexOf('\n')).split(' ')
           outputText += `\t\t\t\t`
