@@ -7,11 +7,11 @@ const progressBar = document.getElementById("progress-bar")
 const slides = [
     {
         title: "Project ZMB",
-        text: "Welcome to our entry in the Digital Decamaron! Your window into this fictional world is a basic social media site, like a proto-Twitter.",
+        text: "Welcome to our entry in the Digital Decamaron! Your window into this fictional world is a basic social media site.",
     },
     {
         title: "How to Play",
-        text: "Use the arrows to navigate the posts. (Please don't use your browser arrows!) Enjoy!",
+        text: "Use the left and right arrows to navigate (not your browser's forward and back buttons!)",
     },
     {
         title: "Week 1",
@@ -54,7 +54,7 @@ function startSlide(idx) {
     progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
     weekTitle.innerHTML = title
-    article.innerHTML = text
+    article.innerHTML = '<h3>' + text + '</h3>'
     document.getElementById("prev").classList.add("hidden")
     if(idx + 1 == slides.length) {
         document.getElementById("next").classList.add("hidden")
