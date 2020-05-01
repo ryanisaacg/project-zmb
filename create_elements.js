@@ -16,36 +16,50 @@ const slides = [
     {
         title: "Week 1",
         text: "Business as usual",
-        week: 1
+    },
+    {
+        week: 1,
     },
     {
         title: "Week 2",
         text: "Everything's fine, promise!",
-        week: 2
+    },
+    {
+        week: 2,
     },
     {
         title: "Week 3",
         text: "The situation is under control.",
+    },
+    {
         week: 3
     },
     {
         title: "Week 4",
         text: "Please don't panic.",
+    },
+    {
         week: 4
     },
     {
         title: "Week 5",
         text: "It's all falling apart.",
+    },
+    {
         week: 5
     },
     {
         title: "Week 6",
         text: "At least we tried.",
+    },
+    {
         week: 6
     },
     {
         title: "Week 7",
         text: "...",
+    },
+    {
         week: 7,
     },
     {
@@ -55,41 +69,35 @@ const slides = [
 ]
 
 let slide = parseInt(storage.getItem('slide'), 10)
-let week = parseInt(storage.getItem('week'), 10)
-if(Number.isNaN(week)) {
-    if(Number.isNaN(slide) || slide >= slides.length) {
-        slide = 0;
-    }
-    startSlide(slide)
-} else {
-    startWeek(week - 1, week);
+if(Number.isNaN(slide) || slide >= slides.length) {
+    slide = 0;
 }
+startSlide(slide)
 
 function startSlide(idx) {
+    storage.setItem('slide', idx)
+    storage.setItem('post', 0)
     progressContainer.classList.add("hidden")
     const { title, text, week } = slides[idx]
-    weekTitle.innerHTML = title
-    article.innerHTML = '<h3>' + text + '</h3>'
     document.getElementById("prev").classList.add("hidden")
     if(idx + 1 == slides.length) {
         document.getElementById("next").classList.add("hidden")
     }
-    document.getElementById("next").onclick = function() {
+    if(week) {
         article.innerHTML = ''
-        if(week) {
-            storage.setItem('post', 0)
-            storage.setItem('week', week)
-            startWeek(idx, week)
-        } else {
-            storage.setItem('week', null)
-            storage.setItem('slide', idx + 1)
+        startWeek(idx)
+    } else {
+        weekTitle.innerHTML = title
+        article.innerHTML = '<h3>' + text + '</h3>'
+        document.getElementById("next").onclick = function() {
+            article.innerHTML = ''
             startSlide(idx + 1)
         }
     }
-
 }
 
-async function startWeek(slide, week) {
+async function startWeek(slide) {
+    const week = slides[slide].week
     progressContainer.classList.remove("hidden")
     const { users, posts } = await fetchJSON("week" + week + "-content.json")
     weekTitle.innerHTML = "Week " + week
@@ -103,8 +111,6 @@ async function startWeek(slide, week) {
         if(active_post > 0) {
             active_post -= 1;
             repaint();
-        } else {
-            startSlide(slide - 1);
         }
     }
 
