@@ -48,7 +48,7 @@ jameson.png
 
 Mike4America
 deplorablemike
-beach-ball.png
+mike-propic.svg
 
 Paul Klein
 wwnnpaulklein
