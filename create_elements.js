@@ -12,7 +12,21 @@ const slides = [
     {
         title: "How to Play",
         text: "Use the arrows to navigate the posts. (Please don't use your browser arrows!) Enjoy!",
-        week: 1,
+    },
+    {
+        title: "Week 1",
+        text: "Business as usual",
+        week: 1
+    },
+    {
+        title: "Week 2",
+        text: "Everything's fine, promise!",
+        week: 2
+    },
+    {
+        title: "Week 3",
+        text: "Please don't panic",
+        week: 3
     },
     {
         title: "That's all, folks!",
@@ -43,6 +57,7 @@ function startSlide(idx) {
     document.getElementById("next").onclick = function() {
         article.innerHTML = ''
         if(week) {
+            storage.setItem('post', 0)
             storage.setItem('week', week)
             startWeek(idx, week)
         } else {
