@@ -23,22 +23,22 @@
 		{
 			"name": "its me! mario!",
 			"handle": "marinemariano",
-			"avi": "beach-ball.png"
+			"avi": "mariano.png"
 		},
 		{
 			"name": "raj",
 			"handle": "captain0bvi0us",
-			"avi": "beach-ball.png"
+			"avi": "raj.png"
 		},
 		{
 			"name": "Worldwide News Network (Official)",
 			"handle": "WWNN",
-			"avi": "beach-ball.png"
+			"avi": "wwnn.png"
 		},
 		{
 			"name": "Gayle Lorenzo, PhD",
 			"handle": "glorenzo",
-			"avi": "beach-ball.png"
+			"avi": "gayle-lorenzo.png"
 		},
 		{
 			"name": "Carol",
@@ -73,7 +73,7 @@
 	],
 	"posts": [
 		{
-			"UUID": 61,
+			"UUID": 31,
 			"user": "juliejuliejulie00",
 			"upvotes": 6,
 			"downvotes": 0,
@@ -83,7 +83,7 @@
 			"content": "putting the scrubs on a monday hits different 😭",
 			"replies": [
 				{
-					"UUID": 62,
+					"UUID": 32,
 					"user": "pastman114",
 					"upvotes": 2,
 					"downvotes": 4,
@@ -93,7 +93,7 @@
 					"content": "mOnDayS aM i RiGhT? ok boomer"
 				},
 				{
-					"UUID": 63,
+					"UUID": 33,
 					"user": "juliejuliejulie00",
 					"upvotes": 5,
 					"downvotes": 1,
@@ -103,7 +103,7 @@
 					"content": "shut <i>up</i> dude lmao"
 				},
 				{
-					"UUID": 64,
+					"UUID": 34,
 					"user": "diyvachandler",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -113,7 +113,7 @@
 					"content": "he kinda right tho 🙄"
 				},
 				{
-					"UUID": 65,
+					"UUID": 35,
 					"user": "juliejuliejulie00",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -123,7 +123,7 @@
 					"content": "if yall wanna come down here and do my job be my guest. we're really slammed this week tbh"
 				},
 				{
-					"UUID": 66,
+					"UUID": 36,
 					"user": "diyvachandler",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -133,7 +133,7 @@
 					"content": "sorrryyy you know ily"
 				},
 				{
-					"UUID": 67,
+					"UUID": 37,
 					"user": "juliejuliejulie00",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -145,7 +145,7 @@
 			]
 		},
 		{
-			"UUID": 68,
+			"UUID": 38,
 			"user": "deplorablemike",
 			"upvotes": 200,
 			"downvotes": 135,
@@ -155,7 +155,7 @@
 			"content": "Glad the President is speaking truth to the fake news media!!",
 			"replies": [
 				{
-					"UUID": 69,
+					"UUID": 39,
 					"user": "wwnnpaulklein",
 					"upvotes": 60,
 					"downvotes": 21,
@@ -165,7 +165,7 @@
 					"content": "I think this sets a dangerous precident, especially as this is a new and developing situation."
 				},
 				{
-					"UUID": 70,
+					"UUID": 40,
 					"user": "deplorablemike",
 					"upvotes": 100,
 					"downvotes": 53,
@@ -175,7 +175,7 @@
 					"content": "wrong! it shows america is strong and not afraid of anything"
 				},
 				{
-					"UUID": 71,
+					"UUID": 41,
 					"user": "wwnnpaulklein",
 					"upvotes": 150,
 					"downvotes": 38,
@@ -185,7 +185,7 @@
 					"content": "Actually I can only see this hurting the image of the United States in the long run. It goes against the principles of our great country."
 				},
 				{
-					"UUID": 72,
+					"UUID": 42,
 					"user": "deplorablemike",
 					"upvotes": 120,
 					"downvotes": 79,
@@ -197,7 +197,7 @@
 			]
 		},
 		{
-			"UUID": 73,
+			"UUID": 43,
 			"user": "pastman114",
 			"upvotes": 3,
 			"downvotes": 0,
@@ -207,7 +207,7 @@
 			"content": "tyyy for unblocking me @kwallzzzzzzzz",
 			"replies": [
 				{
-					"UUID": 74,
+					"UUID": 44,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -217,7 +217,7 @@
 					"content": "np lol, been cranky bc of cold. how're you"
 				},
 				{
-					"UUID": 75,
+					"UUID": 45,
 					"user": "pastman114",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -227,7 +227,7 @@
 					"content": "pretty good, hbu"
 				},
 				{
-					"UUID": 76,
+					"UUID": 46,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -237,7 +237,7 @@
 					"content": "still sick 😢"
 				},
 				{
-					"UUID": 77,
+					"UUID": 47,
 					"user": "pastman114",
 					"upvotes": 1,
 					"downvotes": 4,
@@ -249,7 +249,7 @@
 			]
 		},
 		{
-			"UUID": 78,
+			"UUID": 48,
 			"user": "pastman114",
 			"upvotes": 2,
 			"downvotes": 0,
@@ -259,7 +259,7 @@
 			"content": "Damn she blocked me again",
 			"replies": [
 				{
-					"UUID": 79,
+					"UUID": 49,
 					"user": "captain0bvi0us",
 					"upvotes": 5,
 					"downvotes": 0,
@@ -269,7 +269,7 @@
 					"content": "inb4 mariano gloats"
 				},
 				{
-					"UUID": 80,
+					"UUID": 50,
 					"user": "marinemariano",
 					"upvotes": 8,
 					"downvotes": 1,
@@ -279,7 +279,7 @@
 					"content": "I fucking <i>told</i> you bro"
 				},
 				{
-					"UUID": 81,
+					"UUID": 51,
 					"user": "captain0bvi0us",
 					"upvotes": 13,
 					"downvotes": 0,
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"UUID": 82,
+			"UUID": 52,
 			"user": "kwallzzzzzzzz",
 			"upvotes": 5,
 			"downvotes": 0,
@@ -301,7 +301,7 @@
 			"content": "ugh my head is pounding. feel way worse than a couple days ago",
 			"replies": [
 				{
-					"UUID": 83,
+					"UUID": 53,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -311,7 +311,7 @@
 					"content": "and my fever is up to 103"
 				},
 				{
-					"UUID": 84,
+					"UUID": 54,
 					"user": "juliejuliejulie00",
 					"upvotes": 5,
 					"downvotes": 0,
@@ -323,7 +323,7 @@
 			]
 		},
 		{
-			"UUID": 85,
+			"UUID": 55,
 			"user": "WWNN",
 			"upvotes": 500,
 			"downvotes": 22,
@@ -333,7 +333,7 @@
 			"content": "It is important, in these turbulent times, to avoid spreading rumors and misinformation. There is no evidence that this year's influenza is anything out of the ordinary! Read more about the flu vaccine on our website.",
 			"replies": [
 				{
-					"UUID": 86,
+					"UUID": 56,
 					"user": "glorenzo",
 					"upvotes": 30,
 					"downvotes": 45,
@@ -343,7 +343,7 @@
 					"content": "I'm not sure we can be this confident about anything at the current moment! It might be best to refrain from making definitive statements until we know more."
 				},
 				{
-					"UUID": 87,
+					"UUID": 57,
 					"user": "cl928238",
 					"upvotes": 100,
 					"downvotes": 15,
@@ -353,7 +353,7 @@
 					"content": "Vaccines are poison anyway!! Jail the criminals who push them on our kids."
 				},
 				{
-					"UUID": 88,
+					"UUID": 58,
 					"user": "wwnnpaulklein",
 					"upvotes": 130,
 					"downvotes": 16,
@@ -363,7 +363,7 @@
 					"content": "Author of the article here: don't you think waiting for scientific consensus is irresponsible? @glorenzo"
 				},
 				{
-					"UUID": 89,
+					"UUID": 59,
 					"user": "anarkeereinz",
 					"upvotes": 50,
 					"downvotes": 3,
@@ -373,7 +373,7 @@
 					"content": "We all know the flu is a CIA psy-op"
 				},
 				{
-					"UUID": 90,
+					"UUID": 60,
 					"user": "glorenzo",
 					"upvotes": 3,
 					"downvotes": 10,

@@ -23,17 +23,17 @@
 		{
 			"name": "raj",
 			"handle": "captain0bvi0us",
-			"avi": "beach-ball.png"
+			"avi": "raj.png"
 		},
 		{
 			"name": "Worldwide News Network (Official)",
 			"handle": "WWNN",
-			"avi": "beach-ball.png"
+			"avi": "wwnn.png"
 		},
 		{
 			"name": "Gayle Lorenzo, PhD",
 			"handle": "glorenzo",
-			"avi": "beach-ball.png"
+			"avi": "gayle-lorenzo.png"
 		},
 		{
 			"name": "Carol",
@@ -68,7 +68,7 @@
 	],
 	"posts": [
 		{
-			"UUID": 101,
+			"UUID": 109,
 			"user": "WWNN",
 			"upvotes": 200,
 			"downvotes": 15,
@@ -78,7 +78,7 @@
 			"content": "On one side, politicians. On the other, epidemielogists. One says this is business as usual, with an unusually bad flu season. The other says we should be very worried.",
 			"replies": [
 				{
-					"UUID": 102,
+					"UUID": 110,
 					"user": "deplorablemike",
 					"upvotes": 150,
 					"downvotes": 16,
@@ -88,7 +88,7 @@
 					"content": "Fearmongering to hurt the President won't work! Wonder who is funding these \"experts.\""
 				},
 				{
-					"UUID": 103,
+					"UUID": 111,
 					"user": "glorenzo",
 					"upvotes": 15,
 					"downvotes": 30,
@@ -98,7 +98,7 @@
 					"content": "Are you suggesting my colleagues and I are being paid to <i>lie</i>?"
 				},
 				{
-					"UUID": 104,
+					"UUID": 112,
 					"user": "deplorablemike",
 					"upvotes": 60,
 					"downvotes": 3,
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"UUID": 105,
+			"UUID": 113,
 			"user": "pastman114",
 			"upvotes": 3,
 			"downvotes": 0,
@@ -120,7 +120,7 @@
 			"content": "yo I just saw @marinemariano in the background of a news shot",
 			"replies": [
 				{
-					"UUID": 106,
+					"UUID": 114,
 					"user": "captain0bvi0us",
 					"upvotes": 4,
 					"downvotes": 0,
@@ -130,7 +130,7 @@
 					"content": "is he ok??"
 				},
 				{
-					"UUID": 107,
+					"UUID": 115,
 					"user": "pastman114",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -140,7 +140,7 @@
 					"content": "yeah he looks fine, maybe his internet is out or somethin"
 				},
 				{
-					"UUID": 108,
+					"UUID": 116,
 					"user": "captain0bvi0us",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -150,7 +150,7 @@
 					"content": "where is he??"
 				},
 				{
-					"UUID": 109,
+					"UUID": 117,
 					"user": "pastman114",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -160,7 +160,7 @@
 					"content": "idk it was in one of those \"riots\""
 				},
 				{
-					"UUID": 110,
+					"UUID": 118,
 					"user": "captain0bvi0us",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -172,7 +172,7 @@
 			]
 		},
 		{
-			"UUID": 111,
+			"UUID": 119,
 			"user": "glorenzo",
 			"upvotes": 100,
 			"downvotes": 18,
@@ -182,7 +182,7 @@
 			"content": "I hate to make public statements like this, but the equivocation by @WWNN is dangerous. This is not a flu. We are facing an unprecedented crisis.",
 			"replies": [
 				{
-					"UUID": 112,
+					"UUID": 120,
 					"user": "wwnnpaulklein",
 					"upvotes": 200,
 					"downvotes": 63,
@@ -192,7 +192,7 @@
 					"content": "What is it then? I think the public deserves both sides of the story, especially in the case of a developing story."
 				},
 				{
-					"UUID": 113,
+					"UUID": 121,
 					"user": "glorenzo",
 					"upvotes": 150,
 					"downvotes": 13,
@@ -202,7 +202,7 @@
 					"content": "What sides? My lab is one of the only places that has sequenced the virus's genome. What other side is there?"
 				},
 				{
-					"UUID": 114,
+					"UUID": 122,
 					"user": "deplorablemike",
 					"upvotes": 100,
 					"downvotes": 13,
@@ -212,7 +212,7 @@
 					"content": "I don't know, just the LEADER OF THE FREE WORLD? typical coastal elite"
 				},
 				{
-					"UUID": 115,
+					"UUID": 123,
 					"user": "wwnnpaulklein",
 					"upvotes": 60,
 					"downvotes": 25,
@@ -222,7 +222,7 @@
 					"content": "As much as I hate to agree with Mike, I can't belive you're dismissing POTUS like this @glorenzo"
 				},
 				{
-					"UUID": 116,
+					"UUID": 124,
 					"user": "glorenzo",
 					"upvotes": 5,
 					"downvotes": 31,
@@ -234,7 +234,7 @@
 			]
 		},
 		{
-			"UUID": 117,
+			"UUID": 125,
 			"user": "kwallzzzzzzzz",
 			"upvotes": 5,
 			"downvotes": 0,
@@ -244,7 +244,7 @@
 			"content": "my symptoms match the checklists coming out of the news, what do I do",
 			"replies": [
 				{
-					"UUID": 118,
+					"UUID": 126,
 					"user": "juliejuliejulie00",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -254,7 +254,7 @@
 					"content": "i texted u a list of symptoms im seeing in my patients"
 				},
 				{
-					"UUID": 119,
+					"UUID": 127,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -264,7 +264,7 @@
 					"content": "I have all of these im freaking out wtf do i do am i gonna die"
 				},
 				{
-					"UUID": 120,
+					"UUID": 128,
 					"user": "juliejuliejulie00",
 					"upvotes": 2,
 					"downvotes": 0,

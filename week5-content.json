@@ -13,17 +13,17 @@
 		{
 			"name": "raj",
 			"handle": "captain0bvi0us",
-			"avi": "beach-ball.png"
+			"avi": "raj.png"
 		},
 		{
 			"name": "Worldwide News Network (Official)",
 			"handle": "WWNN",
-			"avi": "beach-ball.png"
+			"avi": "wwnn.png"
 		},
 		{
 			"name": "Gayle Lorenzo, PhD",
 			"handle": "glorenzo",
-			"avi": "beach-ball.png"
+			"avi": "gayle-lorenzo.png"
 		},
 		{
 			"name": "Carol",
@@ -63,7 +63,7 @@
 	],
 	"posts": [
 		{
-			"UUID": 91,
+			"UUID": 61,
 			"user": "oldnewtongazette",
 			"upvotes": 60,
 			"downvotes": 3,
@@ -73,7 +73,7 @@
 			"content": "Missing persons reports continue to mount, including local nurse Julie Oscar, who was last seen departing for a wellness check.",
 			"replies": [
 				{
-					"UUID": 92,
+					"UUID": 62,
 					"user": "captain0bvi0us",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -83,7 +83,7 @@
 					"content": "holy fucking shit @diyvachandler are you seeing this"
 				},
 				{
-					"UUID": 93,
+					"UUID": 63,
 					"user": "diyvachandler",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -93,7 +93,7 @@
 					"content": "oh my god... are julie and kiira okay?"
 				},
 				{
-					"UUID": 94,
+					"UUID": 64,
 					"user": "captain0bvi0us",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -103,7 +103,7 @@
 					"content": "im going to go to kiiras place and check on her"
 				},
 				{
-					"UUID": 95,
+					"UUID": 65,
 					"user": "diyvachandler",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"UUID": 96,
+			"UUID": 66,
 			"user": "deplorablemike",
 			"upvotes": 160,
 			"downvotes": 3,
@@ -125,7 +125,7 @@
 			"content": "No matter what stay-at-home orders we get, I'll be come at you live on 106.1 'The Voice.' No flu-zombie is going to stop me exercising my god-given rights as an American!",
 			"replies": [
 				{
-					"UUID": 97,
+					"UUID": 67,
 					"user": "anarkeereinz",
 					"upvotes": 15,
 					"downvotes": 0,
@@ -135,7 +135,7 @@
 					"content": "Can't believe the zombies are going to eat the rich for me."
 				},
 				{
-					"UUID": 98,
+					"UUID": 68,
 					"user": "cl928238",
 					"upvotes": 2,
 					"downvotes": 13,
@@ -147,7 +147,7 @@
 			]
 		},
 		{
-			"UUID": 99,
+			"UUID": 69,
 			"user": "WWNN",
 			"upvotes": 300,
 			"downvotes": 18,
@@ -157,7 +157,7 @@
 			"content": "The President has cancelled a press conference today, citing the \"fake news\" media. Speculation is rampant that he has been infected with what scientists are calling the Z-virus.",
 			"replies": [
 				{
-					"UUID": 100,
+					"UUID": 70,
 					"user": "deplorablemike",
 					"upvotes": 200,
 					"downvotes": 51,
