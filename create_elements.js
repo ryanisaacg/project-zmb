@@ -149,6 +149,8 @@ async function startWeek(slide) {
         const section = document.createElement("section")
         section.className = "post"
         const propic = document.createElement("img")
+        propic.width = 48;
+        propic.height = 48;
         propic.className = "avi"
         const user = users.find(u => u.handle === post.user)
         propic.src = user.avi
