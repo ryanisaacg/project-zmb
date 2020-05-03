@@ -11,7 +11,7 @@ const slides = [
     },
     {
         title: "How to Play",
-        text: "Use the left and right arrows to navigate (not your browser's forward and back buttons!)",
+        text: "Use the left and right arrows to navigate (not your browser's forward and back buttons!) This project is best experienced on a laptop or desktop computer, not a mobile device.",
     },
     {
         title: "Week 1",
