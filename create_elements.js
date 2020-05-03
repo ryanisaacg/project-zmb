@@ -89,6 +89,16 @@ function startSlide(idx) {
     } else {
         weekTitle.innerHTML = title
         article.innerHTML = '<h3>' + text + '</h3>'
+        if(idx == slides.length - 1) {
+            const button = document.createElement("div")
+            button.id = 'restart'
+            button.innerHTML = 'Return to Start?'
+            button.onclick = function() {
+                devReset();
+                startSlide(0)
+            }
+            article.appendChild(button)
+        }
         document.getElementById("next").onclick = function() {
             article.innerHTML = ''
             startSlide(idx + 1)

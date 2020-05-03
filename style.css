@@ -15,10 +15,6 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
 main {
     margin-top: 128px;
     /* Set the content in a row with as much space between it as possible */
@@ -48,6 +44,7 @@ article {
     width: 768px;
     max-height: 768px;
     overflow: auto;
+    text-align: center;
 }
 
 .post {
@@ -117,4 +114,16 @@ article {
     width: 10%;
     height: 100%;
     background-color: #888;
+}
+#restart {
+    max-width: 256px;
+    padding: 4px;
+    margin: 32px auto;
+    background-color: black;
+    outline: white solid thin;
+}
+#restart:hover {
+    color: red;
+    outline: red solid;
+    cursor: pointer;
 }
