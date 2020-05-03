@@ -1,14 +1,14 @@
 {
 	"users": [
 		{
-			"name": "Ddi-ddi-ddi",
-			"handle": "diyvachandler",
-			"avi": "beach-ball.png"
-		},
-		{
 			"name": "Mr. Pastman",
 			"handle": "pastman114",
-			"avi": "pastman.png"
+			"avi": "pastman2.png"
+		},
+		{
+			"name": "its me! mario!",
+			"handle": "marinemariano",
+			"avi": "mariano.png"
 		},
 		{
 			"name": "raj",
@@ -31,11 +31,6 @@
 			"avi": "carol.png"
 		},
 		{
-			"name": "jisung's baby girl",
-			"handle": "lgbtjisungies",
-			"avi": "beach-ball.png"
-		},
-		{
 			"name": "Greengrass Pharmacy",
 			"handle": "GreenGrass",
 			"avi": "green-grass-pharmacy.png"
@@ -52,8 +47,18 @@
 		},
 		{
 			"name": "Paul Klein",
-			"handle": "wwnnpaulklein",
+			"handle": "paulklein",
 			"avi": "paul-klein.png"
+		},
+		{
+			"name": "Jeff Antonio R. Tombolini",
+			"handle": "roverino",
+			"avi": "jeff.png"
+		},
+		{
+			"name": "EMERGENCY BROADCAST",
+			"handle": "emergency",
+			"avi": "emergency.webp"
 		},
 		{
 			"name": "Old Newton Gazette",
@@ -61,36 +66,210 @@
 			"avi": "beach-ball.png"
 		},
 		{
-			"name": "EMERGENCY BROADCAST",
-			"handle": "emergency",
-			"avi": "emergency.webp"
+			"name": "LMZ HOT JOURNALISM",
+			"handle": "LMZ",
+			"avi": "lmz.png"
 		}
 	],
 	"posts": [
 		{
-			"UUID": 113,
+			"UUID": 196,
 			"user": "emergency",
 			"upvotes": 0,
 			"downvotes": 0,
 			"tags": [
 				"alarm"
 			],
-			"content": "THIS IS AN EMERGENCY MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.",
+			"content": "THIS IS AN AUTOMATED MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.",
 			"replies": [
 				{
-					"UUID": 114,
+					"UUID": 197,
 					"user": "emergency",
 					"upvotes": 0,
 					"downvotes": 0,
 					"tags": [
 						"alarm"
 					],
-					"content": "IF YOU NEED ANYTHING, CONTACT A LOCAL POLICE DEPARTMENT OR THE NATIONAL GUARD. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES."
+					"content": "IF YOU NEED ANYTHING, CONTACT YOUR LOCAL POLICE DEPARTMENT OR THE NATIONAL GUARD. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES."
 				}
 			]
 		},
 		{
-			"UUID": 115,
+			"UUID": 198,
+			"user": "roverino",
+			"upvotes": 1,
+			"downvotes": 0,
+			"tags": [
+				"none"
+			],
+			"content": "during this shelter in place i've decided i'm going to live off the land. maybe i'll build a little cabin in my backyard : ) or dig for clay... stayin positive",
+			"replies": [
+				{
+					"UUID": 199,
+					"user": "roverino",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "its dort time baby"
+				}
+			]
+		},
+		{
+			"UUID": 200,
+			"user": "cl928238",
+			"upvotes": 2,
+			"downvotes": 0,
+			"tags": [
+				"concern"
+			],
+			"content": "At the hospital with my poor daughter today who is having symptoms of the Z-virus... please pray for us all",
+			"replies": [
+				{
+					"UUID": 201,
+					"user": "deplorablemike",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "Sending prayers to you and your daughter Carol, I'm so sorry this happened"
+				}
+			]
+		},
+		{
+			"UUID": 202,
+			"user": "GreenGrass",
+			"upvotes": 144,
+			"downvotes": 29,
+			"tags": [
+				"ad"
+			],
+			"content": "ATTENTION: Our pharmacies will be closing starting tomorrow to comply with the federal shelter-in-place. All of our workers will be staying home and healthy as we make sure our pharmacy will be in top condition when we reopen!",
+			"replies": [
+				{
+					"UUID": 203,
+					"user": "anarkeereinz",
+					"upvotes": 17,
+					"downvotes": 2,
+					"tags": [
+						"comrade"
+					],
+					"content": "will your employees be being paid while at home??? they need to live you know!"
+				}
+			]
+		},
+		{
+			"UUID": 204,
+			"user": "marinemariano",
+			"upvotes": 9,
+			"downvotes": 2,
+			"tags": [
+				"concern"
+			],
+			"content": "holy shit.. holy shit",
+			"replies": [
+				{
+					"UUID": 205,
+					"user": "captain0bvi0us",
+					"upvotes": 0,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "whats wrong bro???"
+				},
+				{
+					"UUID": 206,
+					"user": "pastman114",
+					"upvotes": 0,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "what happened man?"
+				}
+			]
+		},
+		{
+			"UUID": 207,
+			"user": "oldnewtongazette",
+			"upvotes": 162,
+			"downvotes": 2,
+			"tags": [
+				"news"
+			],
+			"content": "BREAKING: Julia Gonzalez, 24, and Kiira Waller, 21, have both been killed in a standoff against police. Both were spotted by eyewitness Mariano Giovanni, 22, attacking Divya Chandler, 20, and Oscar DeViva, 26. Both victims are in critical condition.",
+			"replies": [
+				{
+					"UUID": 208,
+					"user": "captain0bvi0us",
+					"upvotes": 142,
+					"downvotes": 5,
+					"tags": [
+						"concern"
+					],
+					"content": "WHAT THE FUCK??? WHAT THE FUCK???? HELLO???? @divyachandler @oscanator @kwallzzzzzzzz @marinemariano @juliejuliejulie00"
+				}
+			]
+		},
+		{
+			"UUID": 209,
+			"user": "captain0bvi0us",
+			"upvotes": 2,
+			"downvotes": 3,
+			"tags": [
+				"angery"
+			],
+			"content": "YOU DIDNT TRY TO HELP THEM AT ALL?????? @marinemariano",
+			"replies": [
+				{
+					"UUID": 210,
+					"user": "marinemariano",
+					"upvotes": 2,
+					"downvotes": 1,
+					"tags": [
+						"defense"
+					],
+					"content": "what was i supposed to do man... im so sorry...."
+				},
+				{
+					"UUID": 211,
+					"user": "pastman114",
+					"upvotes": 12,
+					"downvotes": 2,
+					"tags": [
+						"sad"
+					],
+					"content": "kiira... please answer me... i love you please you cant be gone @kwallzzzzzzzz"
+				}
+			]
+		},
+		{
+			"UUID": 212,
+			"user": "LMZ",
+			"upvotes": 2,
+			"downvotes": 323,
+			"tags": [
+				"news"
+			],
+			"content": "WATCH NOW: @juliejuliejulie000 and @kwallzzzzzzzz RIP THEIR FRIENDS FACES OFF in this NEVER BEFORE SEEN FOOTAGE taken by a security camera! Z-VIRUS IN ACTION! MUST WATCH!",
+			"replies": [
+				{
+					"UUID": 213,
+					"user": "deplorablemike",
+					"upvotes": 124,
+					"downvotes": 6,
+					"tags": [
+						"angery"
+					],
+					"content": "DISGUSTING JOURNALISM!! THOSE ARE CHILDREN!!! @POTUS CLOSE THIS NEWS SITE DOWN RIGHT NOW!!!"
+				}
+			]
+		},
+		{
+			"UUID": 214,
 			"user": "WWNN",
 			"upvotes": 200,
 			"downvotes": 13,
@@ -100,7 +279,7 @@
 			"content": "Uncomfirmed reports say the President has been injured or killed in a struggle with the Secret Service. More on this story as it develops.",
 			"replies": [
 				{
-					"UUID": 116,
+					"UUID": 215,
 					"user": "WWNN",
 					"upvotes": 150,
 					"downvotes": 0,
@@ -112,8 +291,30 @@
 			]
 		},
 		{
-			"UUID": 117,
-			"user": "wwnnpaulklein",
+			"UUID": 216,
+			"user": "roverino",
+			"upvotes": 0,
+			"downvotes": 0,
+			"tags": [
+				"none"
+			],
+			"content": "dort mskes me so happy",
+			"replies": [
+				{
+					"UUID": 217,
+					"user": "roverino",
+					"upvotes": 0,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "i thinmk im running a fever"
+				}
+			]
+		},
+		{
+			"UUID": 218,
+			"user": "paulklein",
 			"upvotes": 15,
 			"downvotes": 0,
 			"tags": [
@@ -122,7 +323,7 @@
 			"content": "We had a good run, didn't we.",
 			"replies": [
 				{
-					"UUID": 118,
+					"UUID": 219,
 					"user": "glorenzo",
 					"upvotes": 13,
 					"downvotes": 0,

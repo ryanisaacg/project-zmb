@@ -14,16 +14,19 @@ EMERGENCY BROADCAST
 emergency
 emergency.webp
 -------------------------------------
-
 @WWNN
 123/2 news
 Worldwide News Network will be shutting down temporarily in the face of this pandemic. To all of our employees and readers, please stay safe.
+@emergency: 0/0 alarm
+THIS IS AN AUTOMATED MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.
 
 @BraveHonor
 231/3 news
 BraveHonor's servers are READY for all of you GAMERS! We're adding a NEW expansion - LEVEL 80 PSIONIKA GEAR! A new update will be hitting your consoles TONIGHT at 7PM PST!
 @ChaosBH: 123/21 gamer
 Stream canceled for tonight guys :( Not feeling too well.
+@emergency: 0/0 alarm
+THIS IS AN AUTOMATED MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.
 
 @emergency
 0/0 alarm

@@ -1,14 +1,14 @@
 {
 	"users": [
 		{
-			"name": "Kira Waller",
+			"name": "Kiira Waller",
 			"handle": "kwallzzzzzzzz",
-			"avi": "beach-ball.png"
+			"avi": "kiira.png"
 		},
 		{
 			"name": "Ddi-ddi-ddi",
 			"handle": "diyvachandler",
-			"avi": "beach-ball.png"
+			"avi": "divya.png"
 		},
 		{
 			"name": "Mr. Pastman",
@@ -18,7 +18,12 @@
 		{
 			"name": "julie 💖s oscar",
 			"handle": "juliejuliejulie00",
-			"avi": "beach-ball.png"
+			"avi": "julie.png"
+		},
+		{
+			"name": "oscar 💖s julie",
+			"handle": "oscanator",
+			"avi": "oscar.png"
 		},
 		{
 			"name": "its me! mario!",
@@ -48,7 +53,7 @@
 		{
 			"name": "jisung's baby girl",
 			"handle": "lgbtjisungies",
-			"avi": "beach-ball.png"
+			"avi": "lgbtjisungies.png"
 		},
 		{
 			"name": "Greengrass Pharmacy",
@@ -344,18 +349,38 @@
 				},
 				{
 					"UUID": 27,
-					"user": "juliejuliejulie00",
+					"user": "oscanator",
 					"upvotes": 4,
 					"downvotes": 0,
 					"tags": [
 						"none"
 					],
-					"content": "can't, mandatory overtime today 🤪"
+					"content": "You know I'm in there, brothers! 😃"
+				},
+				{
+					"UUID": 28,
+					"user": "marinemariano",
+					"upvotes": 3,
+					"downvotes": 1,
+					"tags": [
+						"roast"
+					],
+					"content": "oscar why you talk like a boomer"
+				},
+				{
+					"UUID": 29,
+					"user": "oscanator",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"none"
+					],
+					"content": "Like a what? 😮"
 				}
 			]
 		},
 		{
-			"UUID": 28,
+			"UUID": 30,
 			"user": "diyvachandler",
 			"upvotes": 13,
 			"downvotes": 0,
@@ -365,7 +390,7 @@
 			"content": "We missed u at trivia night @kwallzzzzzzzz wya",
 			"replies": [
 				{
-					"UUID": 29,
+					"UUID": 31,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 4,
 					"downvotes": 1,
@@ -375,7 +400,7 @@
 					"content": "Still sick sorry 🙁"
 				},
 				{
-					"UUID": 30,
+					"UUID": 32,
 					"user": "diyvachandler",
 					"upvotes": 2,
 					"downvotes": 0,

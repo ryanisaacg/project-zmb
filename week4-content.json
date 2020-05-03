@@ -1,24 +1,19 @@
 {
 	"users": [
 		{
-			"name": "Kira Waller",
+			"name": "Kiira Waller",
 			"handle": "kwallzzzzzzzz",
-			"avi": "beach-ball.png"
-		},
-		{
-			"name": "Ddi-ddi-ddi",
-			"handle": "diyvachandler",
-			"avi": "beach-ball.png"
+			"avi": "kiira.png"
 		},
 		{
 			"name": "Mr. Pastman",
 			"handle": "pastman114",
-			"avi": "pastman.png"
+			"avi": "pastman2.png"
 		},
 		{
 			"name": "julie 💖s oscar",
 			"handle": "juliejuliejulie00",
-			"avi": "beach-ball.png"
+			"avi": "julie.png"
 		},
 		{
 			"name": "raj",
@@ -41,16 +36,6 @@
 			"avi": "carol.png"
 		},
 		{
-			"name": "jisung's baby girl",
-			"handle": "lgbtjisungies",
-			"avi": "beach-ball.png"
-		},
-		{
-			"name": "Greengrass Pharmacy",
-			"handle": "GreenGrass",
-			"avi": "green-grass-pharmacy.png"
-		},
-		{
 			"name": "Comrade Jameson",
 			"handle": "anarkeereinz",
 			"avi": "jameson.png"
@@ -64,11 +49,51 @@
 			"name": "Paul Klein",
 			"handle": "wwnnpaulklein",
 			"avi": "paul-klein.png"
+		},
+		{
+			"name": "REAL MEN for PRESIDENT GURSKIN",
+			"handle": "gurskinsgorillas",
+			"avi": "gurskinsgorillas.png"
+		},
+		{
+			"name": "President Richard Gurskin",
+			"handle": "POTUS",
+			"avi": "POTUS.png"
+		},
+		{
+			"name": "Misha Lau",
+			"handle": "laumisha16",
+			"avi": "misha.png"
+		},
+		{
+			"name": "Science News Daily",
+			"handle": "ScienceNewsDaily",
+			"avi": "ScienceNewsDaily.png"
+		},
+		{
+			"name": "BraveHonor: A NEW Battle Royale Game",
+			"handle": "BraveHonor",
+			"avi": "bravehonor.png"
+		},
+		{
+			"name": "Jeff Antonio R. Tombolini",
+			"handle": "roverino",
+			"avi": "jeff.png"
+		},
+		{
+			"name": "CHAOS GAMING",
+			"handle": "ChaosBH",
+			"avi": "chaosbh.png"
+		},
+		{
+			"name": "EMERGENCY BROADCAST",
+			"handle": "emergency",
+			"avi": "emergency.webp"
 		}
 	],
 	"posts": [
 		{
-			"UUID": 61,
+			"UUID": 150,
 			"user": "WWNN",
 			"upvotes": 200,
 			"downvotes": 15,
@@ -78,7 +103,7 @@
 			"content": "On one side, politicians. On the other, epidemielogists. One says this is business as usual, with an unusually bad flu season. The other says we should be very worried.",
 			"replies": [
 				{
-					"UUID": 62,
+					"UUID": 151,
 					"user": "deplorablemike",
 					"upvotes": 150,
 					"downvotes": 16,
@@ -88,7 +113,7 @@
 					"content": "Fearmongering to hurt the President won't work! Wonder who is funding these \"experts.\""
 				},
 				{
-					"UUID": 63,
+					"UUID": 152,
 					"user": "glorenzo",
 					"upvotes": 15,
 					"downvotes": 30,
@@ -98,7 +123,7 @@
 					"content": "Are you suggesting my colleagues and I are being paid to <i>lie</i>?"
 				},
 				{
-					"UUID": 64,
+					"UUID": 153,
 					"user": "deplorablemike",
 					"upvotes": 60,
 					"downvotes": 3,
@@ -110,7 +135,7 @@
 			]
 		},
 		{
-			"UUID": 65,
+			"UUID": 154,
 			"user": "pastman114",
 			"upvotes": 3,
 			"downvotes": 0,
@@ -120,7 +145,7 @@
 			"content": "yo I just saw @marinemariano in the background of a news shot",
 			"replies": [
 				{
-					"UUID": 66,
+					"UUID": 155,
 					"user": "captain0bvi0us",
 					"upvotes": 4,
 					"downvotes": 0,
@@ -130,7 +155,7 @@
 					"content": "is he ok??"
 				},
 				{
-					"UUID": 67,
+					"UUID": 156,
 					"user": "pastman114",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -140,7 +165,7 @@
 					"content": "yeah he looks fine, maybe his internet is out or somethin"
 				},
 				{
-					"UUID": 68,
+					"UUID": 157,
 					"user": "captain0bvi0us",
 					"upvotes": 3,
 					"downvotes": 0,
@@ -150,7 +175,7 @@
 					"content": "where is he??"
 				},
 				{
-					"UUID": 69,
+					"UUID": 158,
 					"user": "pastman114",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -160,7 +185,7 @@
 					"content": "idk it was in one of those \"riots\""
 				},
 				{
-					"UUID": 70,
+					"UUID": 159,
 					"user": "captain0bvi0us",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -172,27 +197,27 @@
 			]
 		},
 		{
-			"UUID": 71,
+			"UUID": 160,
 			"user": "glorenzo",
 			"upvotes": 100,
 			"downvotes": 18,
 			"tags": [
 				"science"
 			],
-			"content": "I hate to make public statements like this, but the equivocation by @WWNN is dangerous. This is not a flu. We are facing an unprecedented crisis.",
+			"content": "I hate to make public statements like this, but the equivocation by @WWNN is dangerous. This is not a flu. We are facing an unprecedented crisis. Please follow news from @ScienceNewsDaily instead.",
 			"replies": [
 				{
-					"UUID": 72,
+					"UUID": 161,
 					"user": "wwnnpaulklein",
 					"upvotes": 200,
 					"downvotes": 63,
 					"tags": [
 						"news"
 					],
-					"content": "What is it then? I think the public deserves both sides of the story, especially in the case of a developing story."
+					"content": "What is it then? I think the public deserves both sides of the story, especially with a story that is still developing."
 				},
 				{
-					"UUID": 73,
+					"UUID": 162,
 					"user": "glorenzo",
 					"upvotes": 150,
 					"downvotes": 13,
@@ -202,7 +227,7 @@
 					"content": "What sides? My lab is one of the only places that has sequenced the virus's genome. What other side is there?"
 				},
 				{
-					"UUID": 74,
+					"UUID": 163,
 					"user": "deplorablemike",
 					"upvotes": 100,
 					"downvotes": 13,
@@ -212,7 +237,7 @@
 					"content": "I don't know, just the LEADER OF THE FREE WORLD? typical coastal elite"
 				},
 				{
-					"UUID": 75,
+					"UUID": 164,
 					"user": "wwnnpaulklein",
 					"upvotes": 60,
 					"downvotes": 25,
@@ -222,7 +247,7 @@
 					"content": "As much as I hate to agree with Mike, I can't belive you're dismissing POTUS like this @glorenzo"
 				},
 				{
-					"UUID": 76,
+					"UUID": 165,
 					"user": "glorenzo",
 					"upvotes": 5,
 					"downvotes": 31,
@@ -234,7 +259,81 @@
 			]
 		},
 		{
-			"UUID": 77,
+			"UUID": 166,
+			"user": "ScienceNewsDaily",
+			"upvotes": 90,
+			"downvotes": 183,
+			"tags": [
+				"ad"
+			],
+			"content": "Don't listen to the haters, Gayle. We got your back. 😘",
+			"replies": [
+				{
+					"UUID": 167,
+					"user": "anarkeereinz",
+					"upvotes": 123,
+					"downvotes": 19,
+					"tags": [
+						"comrade"
+					],
+					"content": "unbelievable.. unfollowed you stupid bootlickers"
+				}
+			]
+		},
+		{
+			"UUID": 168,
+			"user": "POTUS",
+			"upvotes": 18383,
+			"downvotes": 1832,
+			"tags": [
+				"announcement"
+			],
+			"content": "Attention citizens of our wonderful America! Our superiorly strong supporters! @WhiteHouseGov and I are opening a new account to deliver updates! Follow @emergency for more",
+			"replies": [
+				{
+					"UUID": 169,
+					"user": "gurskinsgorillas",
+					"upvotes": 123,
+					"downvotes": 12,
+					"tags": [
+						"maga"
+					],
+					"content": "GURSKINS OUR GUY GURSKINS OUR GUY"
+				},
+				{
+					"UUID": 170,
+					"user": "cl928238",
+					"upvotes": 1282,
+					"downvotes": 284,
+					"tags": [
+						"none"
+					],
+					"content": "You guys have earned my follow! Love the positivity : )"
+				},
+				{
+					"UUID": 171,
+					"user": "gurskinsgorillas",
+					"upvotes": 12,
+					"downvotes": 943,
+					"tags": [
+						"sexism"
+					],
+					"content": "Love another follower to make us sandwiches!"
+				},
+				{
+					"UUID": 172,
+					"user": "laumisha16",
+					"upvotes": 812,
+					"downvotes": 17,
+					"tags": [
+						"right-leaning"
+					],
+					"content": "Your supporters might be a little crazy but I trust you, Mr. President!"
+				}
+			]
+		},
+		{
+			"UUID": 173,
 			"user": "kwallzzzzzzzz",
 			"upvotes": 5,
 			"downvotes": 0,
@@ -244,17 +343,17 @@
 			"content": "my symptoms match the checklists coming out of the news, what do I do",
 			"replies": [
 				{
-					"UUID": 78,
+					"UUID": 174,
 					"user": "juliejuliejulie00",
 					"upvotes": 3,
 					"downvotes": 0,
 					"tags": [
 						"nurse"
 					],
-					"content": "i texted u a list of symptoms im seeing in my patients"
+					"content": "from what im seeing symptoms are headaches, fever, extra salivation, brainfog... there's a lot i'll get you a full list in a little bit b, i dont think you have a lot of them "
 				},
 				{
-					"UUID": 79,
+					"UUID": 175,
 					"user": "kwallzzzzzzzz",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -264,14 +363,98 @@
 					"content": "I have all of these im freaking out wtf do i do am i gonna die"
 				},
 				{
-					"UUID": 80,
+					"UUID": 176,
 					"user": "juliejuliejulie00",
 					"upvotes": 2,
 					"downvotes": 0,
 					"tags": [
 						"nurse"
 					],
-					"content": "stay calm ill come check on you after work today"
+					"content": "stay calm kiira! ill come check on you after work today its gonna be okay"
+				}
+			]
+		},
+		{
+			"UUID": 177,
+			"user": "emergency",
+			"upvotes": 20093,
+			"downvotes": 1282,
+			"tags": [
+				"announcement"
+			],
+			"content": "To prevent disease spread, we are encouraging all Amercian citizens to stay indoors as much as possible. Please try to limit nonessential travel and contact with outside persons.",
+			"replies": [
+				{
+					"UUID": 178,
+					"user": "deplorablemike",
+					"upvotes": 1832,
+					"downvotes": 128,
+					"tags": [
+						"maga"
+					],
+					"content": "Hands off me, government!!! Gurskin wouldnt allow for this!!"
+				}
+			]
+		},
+		{
+			"UUID": 179,
+			"user": "BraveHonor",
+			"upvotes": 728,
+			"downvotes": 81,
+			"tags": [
+				"announcement"
+			],
+			"content": "In light of the emergency announcement to begin staying indoors, we are hosting a DOUBLE XP weekend! Stuck indoors? Get your game on and hit that Prestige 70 loot!",
+			"replies": [
+				{
+					"UUID": 180,
+					"user": "roverino",
+					"upvotes": 127,
+					"downvotes": 90,
+					"tags": [
+						"support"
+					],
+					"content": "you guys are the love of my life. love you bros"
+				},
+				{
+					"UUID": 181,
+					"user": "ChaosBH",
+					"upvotes": 2393,
+					"downvotes": 129,
+					"tags": [
+						"streamer"
+					],
+					"content": "CHECK OUT MY STREAM FOR VALE OF ANCIENTS DROP KEYS!!!"
+				},
+				{
+					"UUID": 182,
+					"user": "captain0bvi0us",
+					"upvotes": 282,
+					"downvotes": 12,
+					"tags": [
+						"fan"
+					],
+					"content": "BET? @ChaosBH"
+				},
+				{
+					"UUID": 183,
+					"user": "laumisha16",
+					"upvotes": 12,
+					"downvotes": 292,
+					"tags": [
+						"parent"
+					],
+					"content": "a Double XP weekend when people are in the hospital? My son won't be playing your games any longer. Heartless"
+				},
+				{
+					"UUID": 184,
+					"user": "captain0bvi0us",
+					"upvotes": 21,
+					"downvotes": 12,
+					"tags": [
+						"fan"
+					],
+					"content": "oh lighten up lady"
 				}
 			]
 		}

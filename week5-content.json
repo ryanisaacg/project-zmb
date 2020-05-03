@@ -3,12 +3,17 @@
 		{
 			"name": "Ddi-ddi-ddi",
 			"handle": "diyvachandler",
-			"avi": "beach-ball.png"
+			"avi": "divya.png"
 		},
 		{
 			"name": "Mr. Pastman",
 			"handle": "pastman114",
-			"avi": "pastman.png"
+			"avi": "pastman2.png"
+		},
+		{
+			"name": "oscar 💖s julie",
+			"handle": "oscanator",
+			"avi": "oscar.png"
 		},
 		{
 			"name": "raj",
@@ -33,12 +38,7 @@
 		{
 			"name": "jisung's baby girl",
 			"handle": "lgbtjisungies",
-			"avi": "beach-ball.png"
-		},
-		{
-			"name": "Greengrass Pharmacy",
-			"handle": "GreenGrass",
-			"avi": "green-grass-pharmacy.png"
+			"avi": "lgbtjisungies.png"
 		},
 		{
 			"name": "Comrade Jameson",
@@ -56,6 +56,36 @@
 			"avi": "paul-klein.png"
 		},
 		{
+			"name": "REAL MEN for PRESIDENT GURSKIN",
+			"handle": "gurskinsgorillas",
+			"avi": "gurskinsgorillas.png"
+		},
+		{
+			"name": "Natalie Banks",
+			"handle": "nattybanks",
+			"avi": "nattybanks.png"
+		},
+		{
+			"name": "channie",
+			"handle": "dazzlingboy1992",
+			"avi": "dazzlingboy1992.png"
+		},
+		{
+			"name": "Misha Lau",
+			"handle": "laumisha16",
+			"avi": "misha.png"
+		},
+		{
+			"name": "EMERGENCY BROADCAST",
+			"handle": "emergency",
+			"avi": "emergency.webp"
+		},
+		{
+			"name": "kwon jisung's #1 fan",
+			"handle": "KW0NJ15UNG",
+			"avi": "KW0NJ15UNG.jpg"
+		},
+		{
 			"name": "Old Newton Gazette",
 			"handle": "oldnewtongazette",
 			"avi": "beach-ball.png"
@@ -63,27 +93,69 @@
 	],
 	"posts": [
 		{
-			"UUID": 119,
+			"UUID": 117,
+			"user": "oscanator",
+			"upvotes": 10,
+			"downvotes": 0,
+			"tags": [
+				"concern"
+			],
+			"content": "Has anyone seen @juliejuliejulie000????? I haven't heard from her and I'm very worried. ☹️",
+			"replies": [
+				{
+					"UUID": 118,
+					"user": "diyvachandler",
+					"upvotes": 3,
+					"downvotes": 0,
+					"tags": [
+						"reply"
+					],
+					"content": "last i saw she was with @kwallzzzzzzzz, im sure theyre alright "
+				},
+				{
+					"UUID": 119,
+					"user": "oscanator",
+					"upvotes": 4,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "It's not like Julie to not text me like this... I am very very very worried... ☹️"
+				}
+			]
+		},
+		{
+			"UUID": 120,
 			"user": "oldnewtongazette",
 			"upvotes": 60,
 			"downvotes": 3,
 			"tags": [
 				"news"
 			],
-			"content": "Missing persons reports continue to mount, including local nurse Julie Oscar, who was last seen departing for a wellness check.",
+			"content": "Missing persons reports continue to mount, including local nurse Julia Gonzales, who was last seen departing for a wellness check.",
 			"replies": [
 				{
-					"UUID": 120,
+					"UUID": 121,
 					"user": "captain0bvi0us",
 					"upvotes": 3,
 					"downvotes": 0,
 					"tags": [
 						"none"
 					],
-					"content": "holy fucking shit @diyvachandler are you seeing this"
+					"content": "holy fucking shit @diyvachandler @oscanator are you seeing this"
 				},
 				{
-					"UUID": 121,
+					"UUID": 122,
+					"user": "oscanator",
+					"upvotes": 7,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "No... no... not my Julie... this can't be happening..."
+				},
+				{
+					"UUID": 123,
 					"user": "diyvachandler",
 					"upvotes": 2,
 					"downvotes": 0,
@@ -93,7 +165,7 @@
 					"content": "oh my god... are julie and kiira okay?"
 				},
 				{
-					"UUID": 122,
+					"UUID": 124,
 					"user": "captain0bvi0us",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -103,7 +175,7 @@
 					"content": "im going to go to kiiras place and check on her"
 				},
 				{
-					"UUID": 123,
+					"UUID": 125,
 					"user": "diyvachandler",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -111,11 +183,21 @@
 						"none"
 					],
 					"content": "no dont its not safe"
+				},
+				{
+					"UUID": 126,
+					"user": "oscanator",
+					"upvotes": 1,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "diyva, I'll go with you. I will text you when I arrive at your house. Let's go together, please!!!!"
 				}
 			]
 		},
 		{
-			"UUID": 124,
+			"UUID": 127,
 			"user": "deplorablemike",
 			"upvotes": 160,
 			"downvotes": 3,
@@ -125,7 +207,7 @@
 			"content": "No matter what stay-at-home orders we get, I'll be come at you live on 106.1 'The Voice.' No flu-zombie is going to stop me exercising my god-given rights as an American!",
 			"replies": [
 				{
-					"UUID": 125,
+					"UUID": 128,
 					"user": "anarkeereinz",
 					"upvotes": 15,
 					"downvotes": 0,
@@ -135,7 +217,7 @@
 					"content": "Can't believe the zombies are going to eat the rich for me."
 				},
 				{
-					"UUID": 126,
+					"UUID": 129,
 					"user": "cl928238",
 					"upvotes": 2,
 					"downvotes": 13,
@@ -143,11 +225,63 @@
 						"none"
 					],
 					"content": "What a horrible thing to say!"
+				},
+				{
+					"UUID": 130,
+					"user": "dazzlingboy1992",
+					"upvotes": 12,
+					"downvotes": 1,
+					"tags": [
+						"lib"
+					],
+					"content": "I agree with Jameson... maybe I am starting to radicalize in the name of an unfair system"
+				},
+				{
+					"UUID": 131,
+					"user": "cl928238",
+					"upvotes": 1,
+					"downvotes": 14,
+					"tags": [
+						"antivax"
+					],
+					"content": "Those damn vaccines are melting your brains!!! Get help losers!!!!"
 				}
 			]
 		},
 		{
-			"UUID": 127,
+			"UUID": 132,
+			"user": "emergency",
+			"upvotes": 20913,
+			"downvotes": 192,
+			"tags": [
+				"announcement"
+			],
+			"content": "BREAKING: The government is issuing a LOCKDOWN across ALL states. Please stay indoors under all costs. We will be tweeting daily reminders.",
+			"replies": [
+				{
+					"UUID": 133,
+					"user": "laumisha16",
+					"upvotes": 172,
+					"downvotes": 18,
+					"tags": [
+						"right-leaning"
+					],
+					"content": "What is this about??? We havent been told anything!"
+				},
+				{
+					"UUID": 134,
+					"user": "dazzlingboy1992",
+					"upvotes": 192,
+					"downvotes": 19,
+					"tags": [
+						"lib"
+					],
+					"content": "Check @ScienceNewsDaily for news Misha"
+				}
+			]
+		},
+		{
+			"UUID": 135,
 			"user": "WWNN",
 			"upvotes": 300,
 			"downvotes": 18,
@@ -157,7 +291,47 @@
 			"content": "The President has cancelled a press conference today, citing the \"fake news\" media. Speculation is rampant that he has been infected with what scientists are calling the Z-virus.",
 			"replies": [
 				{
-					"UUID": 128,
+					"UUID": 136,
+					"user": "glorenzo",
+					"upvotes": 182,
+					"downvotes": 10,
+					"tags": [
+						"science"
+					],
+					"content": "What Helix Laboratories has dubbed the \"Z-virus\" is VERY dangerous and VERY contagious as far as we know. Everyone stay inside."
+				},
+				{
+					"UUID": 137,
+					"user": "nattybanks",
+					"upvotes": 192,
+					"downvotes": 7,
+					"tags": [
+						"concern"
+					],
+					"content": "Gayle, the public barely has any information other than frantic reports from news outlets... do you have anything for us???"
+				},
+				{
+					"UUID": 138,
+					"user": "glorenzo",
+					"upvotes": 709,
+					"downvotes": 2,
+					"tags": [
+						"science"
+					],
+					"content": "No worries, Natalie. I will be publishing a journal very soon with Helix Laboratories' findings about the \"Z-virus\"."
+				},
+				{
+					"UUID": 139,
+					"user": "nattybanks",
+					"upvotes": 587,
+					"downvotes": 90,
+					"tags": [
+						"citizen"
+					],
+					"content": "Thank you Gayle! We need more scientists like you."
+				},
+				{
+					"UUID": 140,
 					"user": "deplorablemike",
 					"upvotes": 200,
 					"downvotes": 51,
@@ -165,6 +339,102 @@
 						"maga"
 					],
 					"content": "Real Americans aren't fooled by fake news!"
+				}
+			]
+		},
+		{
+			"UUID": 141,
+			"user": "wwnnpaulklein",
+			"upvotes": 192,
+			"downvotes": 2,
+			"tags": [
+				"sad"
+			],
+			"content": "The amount of death threats I am receiving from people on both sides has tipped me to my breaking point. I am officially resigning from @WWNN today. I will be changing my handle to just @paulklein shortly. ",
+			"replies": [
+				{
+					"UUID": 142,
+					"user": "gurskinsgorillas",
+					"upvotes": 17,
+					"downvotes": 129,
+					"tags": [
+						"threat"
+					],
+					"content": "WE WILL FOLLOW THROUGH ON THOSE THREATS OOH OOH AHH AHH! OOH OOH AHH AHH"
+				},
+				{
+					"UUID": 143,
+					"user": "diyvachandler",
+					"upvotes": 87,
+					"downvotes": 2,
+					"tags": [
+						"defense"
+					],
+					"content": "what the fuck are you guys on. seriously."
+				}
+			]
+		},
+		{
+			"UUID": 144,
+			"user": "WWNN",
+			"upvotes": 3000,
+			"downvotes": 1290,
+			"tags": [
+				"news"
+			],
+			"content": "BREAKING: VTS member Kwon Jisung becomes the first case of the \"Z-virus\" outside of the United States. It is speculated he received it from a backup dancer while on tour. Read more on our website.",
+			"replies": [
+				{
+					"UUID": 145,
+					"user": "lgbtjisungies",
+					"upvotes": 1923,
+					"downvotes": 22,
+					"tags": [
+						"kpop"
+					],
+					"content": "no... no... not my baby boy this cant be right nononono..."
+				},
+				{
+					"UUID": 146,
+					"user": "KW0NJ15UNG",
+					"upvotes": 1929,
+					"downvotes": 21,
+					"tags": [
+						"kpop"
+					],
+					"content": "stay strong maknae jisung!!!!"
+				}
+			]
+		},
+		{
+			"UUID": 147,
+			"user": "diyvachandler",
+			"upvotes": 9,
+			"downvotes": 0,
+			"tags": [
+				"concern"
+			],
+			"content": "guys i love you all so much. please stay safe and inside... im in the car with @oscanator right now to check on kiira and julie im sure everything is okay and its just a misunderstanding",
+			"replies": [
+				{
+					"UUID": 148,
+					"user": "captain0bvi0us",
+					"upvotes": 7,
+					"downvotes": 0,
+					"tags": [
+						"concern"
+					],
+					"content": "divya please be careful girl"
+				},
+				{
+					"UUID": 149,
+					"user": "pastman114",
+					"upvotes": 2,
+					"downvotes": 1,
+					"tags": [
+						"concern"
+					],
+					"content": "please be careful and make sure kiira is okay please"
 				}
 			]
 		}
