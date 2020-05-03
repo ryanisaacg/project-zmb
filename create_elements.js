@@ -82,6 +82,8 @@ function startSlide(idx) {
     document.getElementById("prev").classList.add("hidden")
     if(idx + 1 == slides.length) {
         document.getElementById("next").classList.add("hidden")
+    } else {
+        document.getElementById("next").classList.remove("hidden")
     }
     if(week) {
         article.innerHTML = ''
