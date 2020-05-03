@@ -63,7 +63,7 @@
 		{
 			"name": "Old Newton Gazette",
 			"handle": "oldnewtongazette",
-			"avi": "beach-ball.png"
+			"avi": "gazette.jpg"
 		},
 		{
 			"name": "LMZ HOT JOURNALISM",
@@ -73,7 +73,7 @@
 	],
 	"posts": [
 		{
-			"UUID": 196,
+			"UUID": 128,
 			"user": "emergency",
 			"upvotes": 0,
 			"downvotes": 0,
@@ -83,7 +83,7 @@
 			"content": "THIS IS AN AUTOMATED MESSAGE. A FEDERAL SHELTER-IN-PLACE ORDER IS IN EFFECT. DO NOT LEAVE YOUR HOME UNDER ANY CIRCUMSTANCES.",
 			"replies": [
 				{
-					"UUID": 197,
+					"UUID": 129,
 					"user": "emergency",
 					"upvotes": 0,
 					"downvotes": 0,
@@ -95,7 +95,7 @@
 			]
 		},
 		{
-			"UUID": 198,
+			"UUID": 130,
 			"user": "roverino",
 			"upvotes": 1,
 			"downvotes": 0,
@@ -105,7 +105,7 @@
 			"content": "during this shelter in place i've decided i'm going to live off the land. maybe i'll build a little cabin in my backyard : ) or dig for clay... stayin positive",
 			"replies": [
 				{
-					"UUID": 199,
+					"UUID": 131,
 					"user": "roverino",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"UUID": 200,
+			"UUID": 132,
 			"user": "cl928238",
 			"upvotes": 2,
 			"downvotes": 0,
@@ -127,7 +127,7 @@
 			"content": "At the hospital with my poor daughter today who is having symptoms of the Z-virus... please pray for us all",
 			"replies": [
 				{
-					"UUID": 201,
+					"UUID": 133,
 					"user": "deplorablemike",
 					"upvotes": 1,
 					"downvotes": 0,
@@ -139,7 +139,7 @@
 			]
 		},
 		{
-			"UUID": 202,
+			"UUID": 134,
 			"user": "GreenGrass",
 			"upvotes": 144,
 			"downvotes": 29,
@@ -149,7 +149,7 @@
 			"content": "ATTENTION: Our pharmacies will be closing starting tomorrow to comply with the federal shelter-in-place. All of our workers will be staying home and healthy as we make sure our pharmacy will be in top condition when we reopen!",
 			"replies": [
 				{
-					"UUID": 203,
+					"UUID": 135,
 					"user": "anarkeereinz",
 					"upvotes": 17,
 					"downvotes": 2,
@@ -161,7 +161,7 @@
 			]
 		},
 		{
-			"UUID": 204,
+			"UUID": 136,
 			"user": "marinemariano",
 			"upvotes": 9,
 			"downvotes": 2,
@@ -171,7 +171,7 @@
 			"content": "holy shit.. holy shit",
 			"replies": [
 				{
-					"UUID": 205,
+					"UUID": 137,
 					"user": "captain0bvi0us",
 					"upvotes": 0,
 					"downvotes": 0,
@@ -181,7 +181,7 @@
 					"content": "whats wrong bro???"
 				},
 				{
-					"UUID": 206,
+					"UUID": 138,
 					"user": "pastman114",
 					"upvotes": 0,
 					"downvotes": 0,
@@ -193,7 +193,7 @@
 			]
 		},
 		{
-			"UUID": 207,
+			"UUID": 139,
 			"user": "oldnewtongazette",
 			"upvotes": 162,
 			"downvotes": 2,
@@ -203,7 +203,7 @@
 			"content": "BREAKING: Julia Gonzalez, 24, and Kiira Waller, 21, have both been killed in a standoff against police. Both were spotted by eyewitness Mariano Giovanni, 22, attacking Divya Chandler, 20, and Oscar DeViva, 26. Both victims are in critical condition.",
 			"replies": [
 				{
-					"UUID": 208,
+					"UUID": 140,
 					"user": "captain0bvi0us",
 					"upvotes": 142,
 					"downvotes": 5,
@@ -215,7 +215,7 @@
 			]
 		},
 		{
-			"UUID": 209,
+			"UUID": 141,
 			"user": "captain0bvi0us",
 			"upvotes": 2,
 			"downvotes": 3,
@@ -225,7 +225,7 @@
 			"content": "YOU DIDNT TRY TO HELP THEM AT ALL?????? @marinemariano",
 			"replies": [
 				{
-					"UUID": 210,
+					"UUID": 142,
 					"user": "marinemariano",
 					"upvotes": 2,
 					"downvotes": 1,
@@ -235,7 +235,7 @@
 					"content": "what was i supposed to do man... im so sorry...."
 				},
 				{
-					"UUID": 211,
+					"UUID": 143,
 					"user": "pastman114",
 					"upvotes": 12,
 					"downvotes": 2,
@@ -247,7 +247,7 @@
 			]
 		},
 		{
-			"UUID": 212,
+			"UUID": 144,
 			"user": "LMZ",
 			"upvotes": 2,
 			"downvotes": 323,
@@ -257,7 +257,7 @@
 			"content": "WATCH NOW: @juliejuliejulie000 and @kwallzzzzzzzz RIP THEIR FRIENDS FACES OFF in this NEVER BEFORE SEEN FOOTAGE taken by a security camera! Z-VIRUS IN ACTION! MUST WATCH!",
 			"replies": [
 				{
-					"UUID": 213,
+					"UUID": 145,
 					"user": "deplorablemike",
 					"upvotes": 124,
 					"downvotes": 6,
@@ -269,7 +269,7 @@
 			]
 		},
 		{
-			"UUID": 214,
+			"UUID": 146,
 			"user": "WWNN",
 			"upvotes": 200,
 			"downvotes": 13,
@@ -279,7 +279,7 @@
 			"content": "Uncomfirmed reports say the President has been injured or killed in a struggle with the Secret Service. More on this story as it develops.",
 			"replies": [
 				{
-					"UUID": 215,
+					"UUID": 147,
 					"user": "WWNN",
 					"upvotes": 150,
 					"downvotes": 0,
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"UUID": 216,
+			"UUID": 148,
 			"user": "roverino",
 			"upvotes": 0,
 			"downvotes": 0,
@@ -301,7 +301,7 @@
 			"content": "dort mskes me so happy",
 			"replies": [
 				{
-					"UUID": 217,
+					"UUID": 149,
 					"user": "roverino",
 					"upvotes": 0,
 					"downvotes": 0,
@@ -313,7 +313,7 @@
 			]
 		},
 		{
-			"UUID": 218,
+			"UUID": 150,
 			"user": "paulklein",
 			"upvotes": 15,
 			"downvotes": 0,
@@ -323,7 +323,7 @@
 			"content": "We had a good run, didn't we.",
 			"replies": [
 				{
-					"UUID": 219,
+					"UUID": 151,
 					"user": "glorenzo",
 					"upvotes": 13,
 					"downvotes": 0,

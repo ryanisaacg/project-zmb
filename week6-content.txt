@@ -48,7 +48,7 @@ emergency.webp
 
 Old Newton Gazette
 oldnewtongazette
-beach-ball.png
+gazette.jpg
 
 LMZ HOT JOURNALISM
 LMZ
