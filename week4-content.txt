@@ -82,6 +82,10 @@ BraveHonor: A NEW Battle Royale Game
 BraveHonor
 beach-ball.png
 
+CHAOS GAMING
+ChaosBH
+beach-ball.png
+
 EMERGENCY BROADCAST
 emergency
 emergency.webp
