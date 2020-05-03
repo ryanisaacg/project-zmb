@@ -4,11 +4,11 @@ wwnn.png
 
 BraveHonor: A NEW Battle Royale Game
 BraveHonor
-beach-ball.png
+bravehonor.png
 
 CHAOS GAMING
 ChaosBH
-beach-ball.png
+chaosbh.png
 
 EMERGENCY BROADCAST
 emergency
